@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class PowerMethod{
 
+  //Asks the user for input for base and power and invokes the Power Method
   public static void main(String[] args) {
 
           Scanner input = new Scanner(System.in);
@@ -20,11 +21,22 @@ public class PowerMethod{
 
 
   }
-
+  //The power variable tells this method how many times to multiply the base by itself.
   public static double Power(double base, int power){
 
+    double answer = base;
 
-    return (Math.pow(base,power));
+      for(int i = 1; i<power; i++){
+
+          answer = base * answer;
+
+
+
+      }
+
+      return answer;
+
+    //return (Math.pow(base,power));
 
   }
 
