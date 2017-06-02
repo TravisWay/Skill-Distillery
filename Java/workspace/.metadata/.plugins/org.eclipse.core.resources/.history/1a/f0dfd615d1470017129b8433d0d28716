@@ -5,11 +5,10 @@ public class MI {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		char first, middle, last, test;
+		char first, middle, last;
 		first = 't';
 		middle = 'm';
 		last = 'w';
-		test = 65;
 		
 		int x;
 		int y;
