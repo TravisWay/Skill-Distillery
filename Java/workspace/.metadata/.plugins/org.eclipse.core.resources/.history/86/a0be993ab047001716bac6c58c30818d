@@ -1,0 +1,18 @@
+
+public class HelloEclipse {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello Eclipse");
+
+		int x = 42;
+
+		System.out.println(x);
+		
+		float f  = 3.14f;
+				
+		System.out.println(f);
+
+	}
+
+}
