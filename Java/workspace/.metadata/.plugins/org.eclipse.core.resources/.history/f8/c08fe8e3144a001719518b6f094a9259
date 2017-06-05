@@ -1,0 +1,52 @@
+package labs;
+
+import java.util.Scanner;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+import sun.security.provider.JavaKeyStore.CaseExactJKS;
+
+public class Grade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int grade = 1;
+		while(grade != 0) {
+			System.out.println("What is the grade? Enter 0 to quit");
+			
+
+			grade = input.nextInt();
+			
+			switch(grade){
+			
+				case (90):
+				case (91):
+				case (92):
+					
+					
+				System.out.println("A");
+				break;
+				case (grade < 90 && grade >= 80): 
+				System.out.println("B");
+				break;
+				case  (grade < 80 && grade >= 70): 
+				System.out.println("C");
+				break;
+				case  (grade < 70 && grade >= 60):
+				System.out.println("D");
+				break;
+				case (grade<60):
+				System.out.println("F");
+			}
+
+		}
+		
+	}
+	
+		
+	}
+		
+	}
+
+}

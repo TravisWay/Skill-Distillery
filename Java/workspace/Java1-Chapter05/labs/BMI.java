@@ -2,10 +2,6 @@ package labs;
 
 import java.util.Scanner;
 
-
-
-
-
 public class BMI {
 
 
@@ -26,10 +22,21 @@ public class BMI {
 		
 		double weight= input.nextDouble();
 		
-		Cal(weight, height);
+		double bmi = Cal(weight, height);
 		
-		
-		
+		if(bmi >= 30){
+			System.out.println("Obese");
+		}
+		else if(bmi>= 25 && bmi< 30){
+			System.out.println("Overweight");			
+		}
+		else if (bmi >= 18.5 && bmi < 25){
+			System.out.println("Normal");			
+		}
+		else{
+			System.out.println("Underweight");
+		}
+	
 		
 		
 		
@@ -37,12 +44,14 @@ public class BMI {
 		
 	}
 	
-	public static void Cal(double weight, double height) {
+	public static double Cal(double weight, double height) {
 		
 		
 		double bmi = (weight * 703) / (height * height);
 		
 		System.out.println(bmi + " is your bmi.");
+		
+		return bmi;
 		
 	}
 	
