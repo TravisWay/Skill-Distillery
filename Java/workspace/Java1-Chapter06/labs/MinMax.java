@@ -9,15 +9,15 @@ public class MinMax {
 	int temp=0;
 	int temp2 =20000000;
 	
-	for (int i : test) {
+	for (int i : test){
 		
-		if(i > temp){
+		while(i > temp){
 			
 			temp = i;
 		}
 	}
 	for (int i : test) {
-		if(i< temp2){
+		while(i< temp2){
 			
 			temp2 = i;
 		}

@@ -1,0 +1,26 @@
+package labs;
+
+public class Capitals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String [][] Capitals = {{"Alabama","Montgomery"},{"Alaska","Juneau"}};
+				
+
+		for (int i = 0; i < Capitals.length; i++) {
+			
+			
+			for (int j = 0; j < Capitals.length; j++) {
+				
+			
+		
+			System.out.print(Capitals[i][j]+ " ");
+		}
+		
+			System.out.println();
+		
+	}
+
+	}
+}
