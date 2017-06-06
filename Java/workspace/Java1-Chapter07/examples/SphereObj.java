@@ -18,6 +18,12 @@ public class SphereObj {
         System.out.print(" and a volume of ");
         System.out.print(volume);
         System.out.println(".");
+        
+        
+        SphereObj s2 = new SphereObj();
+        s2.radius = 55;
+        System.out.println(s2.getCircum());
+        System.out.println(s2.getVolume());
     }
 
     float getCircum() {

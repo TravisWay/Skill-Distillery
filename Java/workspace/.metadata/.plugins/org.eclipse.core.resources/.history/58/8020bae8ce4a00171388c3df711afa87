@@ -1,0 +1,29 @@
+package caesar;
+
+import java.util.Scanner;
+
+public class caesar {
+
+	static String casear;
+	
+	static int move;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter the string to be ciphered:" );
+		
+		casear = input.nextLine();
+		
+		System.out.println("How many places would you like to move this: ");
+		
+		move = input.nextInt();
+		
+
+	}
+	
+	
+
+}
