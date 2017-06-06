@@ -1,0 +1,18 @@
+package labs;
+
+public class EmpTest {
+
+	public static void main(String[] args) {
+		
+		Employee Travis = new Employee();
+		Travis.First="Travis";
+		Travis.Last="Way";
+		Travis.ID="1234567";
+		Travis.Salary="65000";
+		
+		Travis.Print();
+		
+		
+	}
+	
+}

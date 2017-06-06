@@ -1,0 +1,16 @@
+package labs;
+
+public class Employee {
+
+	String First;
+	String Last;
+	String ID;
+	String Salary;
+	
+	void Print(){
+		System.out.println(First + " " +Last + " "+ ID + " "+ Salary);
+		
+		
+	}
+	
+}
