@@ -29,7 +29,7 @@ public class TicTac {
 						+ Arrays.deepToString(tictac[2]) + "\n");
 		tictac[2][2] = " ";
 		// For 5 rounds the program gives each player one turn
-		for (int i = 0; i < 7; i++) {
+		for (int i = 0; i < 5; i++) {
 
 			turn("X");
 			Winner(tictac[0][0], tictac[1][1], tictac[2][2]);
@@ -57,12 +57,11 @@ public class TicTac {
 				System.out.println("O's is the winner");
 				break;
 			}
-			i++;
 
 		}
 	}
 
-	static void turn(String Player) {
+	public static void turn(String Player) {
 		// Prompts user to enter row and column numbers for the wanted position
 		// and saves values
 		System.out.println(Player + "'s: Enter the row number:");
@@ -76,8 +75,12 @@ public class TicTac {
 				System.out.println("\nPlease try another space, as that space is occupied");
 				System.out.println("\nPlayer " + Player + ": Enter the row number:");
 				row = input.nextInt() - 1;
+				String rowcheck = input.nextLine();
+				numberOrNot(rowcheck);
 				System.out.println("\nPlayer " + Player + ": Enter the column number:");
 				col = input.nextInt() - 1;
+				String colcheck = input.nextLine();
+				numberOrNot(colcheck);
 			}
 		}
 		// Saves current board positions so spaces can not be overwritten
@@ -93,10 +96,22 @@ public class TicTac {
 				+ Arrays.deepToString(tictac[2]) + "\n");
 	}
 
-	static void Winner(String one, String two, String three) {
+	public static void Winner(String one, String two, String three) {
 
 		if ((one + two + three).equals("XXX") || (one + two + three).equals("OOO")) {
 			winner = true;
 		}
+	}
+	public static boolean numberOrNot(String input)
+	{
+	    try
+	    {
+	        Integer.parseInt(input);
+	    }
+	    catch(NumberFormatException ex)
+	    {
+	        return false;
+	    }
+	    return true;
 	}
 }
