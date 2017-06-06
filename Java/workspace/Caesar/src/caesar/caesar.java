@@ -1,17 +1,18 @@
 package caesar;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
 
 public class caesar {
 
-	char[] ch;
+	 private char[] ch;
+	
+	private Scanner input;
 
-	public void Run() {
+	void Run() {
 
-		boolean cont = true;
-
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 
 		System.out.println("Enter the string to be ciphered:");
 
@@ -27,13 +28,13 @@ public class caesar {
 
 	}
 
-	public void Convert(String ToChange) {
+	private void Convert(String ToChange) {
 
 		ch = ToChange.toCharArray();
 
 	}
 
-	public void Cipher(int move) {
+	private void Cipher(int move) {
 
 		for (int i = 0; i < ch.length; i++) {
 
@@ -64,7 +65,7 @@ public class caesar {
 
 	}
 
-	public void Print() {
+	private void Print() {
 
 		for (int i = 0; i < ch.length; i++) {
 
