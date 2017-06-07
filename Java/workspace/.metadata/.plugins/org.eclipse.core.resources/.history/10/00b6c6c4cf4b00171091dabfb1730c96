@@ -1,0 +1,16 @@
+package labs;
+
+public class AddressTest {
+
+	public static void main(String[] args) {
+		//int House
+		
+		StringBuilder zip = new StringBuilder();
+		zip.append("63366");
+		Address Mine = new Address(0, "Tailor Sq", "O'Fallon", zip, "FL");
+		System.out.println(Mine);
+	
+	
+	}
+
+}

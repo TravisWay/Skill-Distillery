@@ -5,7 +5,7 @@ public class Employee6 {
 	private String First;
 	private String Last;
 	private String ID;
-	private String Salary;
+	private double Salary;
 	static int mWage = 8;
 	static int rAge = 55;
 	private Title title;
@@ -20,9 +20,10 @@ public class Employee6 {
 		setFirst(First);
 		setLast(Last);
 		setTitle(title);
+		setSalary(60000);
 	}
 	public Employee6() {
-		this("J","Doe");
+		this("J","Doe", Title.LOW);
 	}
 	
 	
@@ -50,17 +51,18 @@ public class Employee6 {
 		ID = iD;
 	}
 
-	public String getSalary() {
+	public double getSalary() {
 		return Salary;
 	}
 
-	public void setSalary(String salary) {
-		Salary = salary;
+	public void setSalary(double d) {
+		Salary = d;
 	}
 
 	public void Print() {
-		System.out.println(First + " " + Last + " " + ID + " " + Salary + " " + mWage + " " + rAge);
-
+		
+		//System.out.println(First + " " + Last + " " + ID + " " + Salary + " " + mWage + " " + rAge);
+		System.out.printf("%.2f",Salary);""
 	}
 	
 	public String toString() {
@@ -76,7 +78,10 @@ public class Employee6 {
 		result = prime * result + ((First == null) ? 0 : First.hashCode());
 		result = prime * result + ((ID == null) ? 0 : ID.hashCode());
 		result = prime * result + ((Last == null) ? 0 : Last.hashCode());
-		result = prime * result + ((Salary == null) ? 0 : Salary.hashCode());
+		long temp;
+		temp = Double.doubleToLongBits(Salary);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((title == null) ? 0 : title.hashCode());
 		return result;
 	}
 	@Override
@@ -103,10 +108,9 @@ public class Employee6 {
 				return false;
 		} else if (!Last.equals(other.Last))
 			return false;
-		if (Salary == null) {
-			if (other.Salary != null)
-				return false;
-		} else if (!Salary.equals(other.Salary))
+		if (Double.doubleToLongBits(Salary) != Double.doubleToLongBits(other.Salary))
+			return false;
+		if (title != other.title)
 			return false;
 		return true;
 	}

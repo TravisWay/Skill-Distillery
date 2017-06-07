@@ -1,0 +1,10 @@
+package labs;
+
+public class AddressTest {
+
+	public static void main(String[] args) {
+		Address Mine = new Address(0, "6 Tailor Sq", "O'Fallon", "63366", "FL");
+		System.out.println(Mine);
+	}
+
+}

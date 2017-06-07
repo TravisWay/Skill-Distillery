@@ -1,0 +1,15 @@
+package labs;
+
+public class AddressTest {
+
+	public static void main(String[] args) {
+		//int House
+		
+		
+		Address Mine = new Address(0, "Tailor Sq", "O'Fallon", "63366", "FL");
+		System.out.println(Mine);
+	
+	
+	}
+
+}
