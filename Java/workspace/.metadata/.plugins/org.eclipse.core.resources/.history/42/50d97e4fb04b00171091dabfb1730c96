@@ -1,5 +1,6 @@
 package labs;
 
+
 public class Employee6 {
 
 	private String First;
@@ -57,8 +58,6 @@ public class Employee6 {
 	
 	public String toString() {
 		// TODO Auto-generated method stub
-		
-		
 		return (First + " " + Last + " " + ID + " " + Salary + " " + mWage + " " + rAge);
 	}
 	@Override
@@ -102,7 +101,6 @@ public class Employee6 {
 			return false;
 		return true;
 	}
-	
 	
 	
 }
