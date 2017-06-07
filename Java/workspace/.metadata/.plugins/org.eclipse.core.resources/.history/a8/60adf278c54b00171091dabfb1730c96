@@ -11,13 +11,6 @@ public class Month {
 	public String toString() {
 		return "Month [Month=" + Month + ", Abv=" + Abv + ", days=" + days + "]";
 	}
-	
-	public Month(String Month, String Abv, String days) {
-		this.days = Integer.parseInt(days);
-		this.Month= Month;
-		this.Abv = Abv;
-		
-	}
 //	void print(){
 //		
 //		System.out.println(Month + " has "+ days+ " days.");

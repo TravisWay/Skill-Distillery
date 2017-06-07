@@ -8,18 +8,10 @@ public class Employee6 {
 	private String Salary;
 	static int mWage = 8;
 	static int rAge = 55;
-	private Title title;
 
-	public Title getTitle() {
-		return title;
-	}
-	public void setTitle(Title title) {
-		this.title = title;
-	}
-	public Employee6(String First, String Last, Title title) {
+	public Employee6(String First, String Last) {
 		setFirst(First);
 		setLast(Last);
-		setTitle(title);
 	}
 	public Employee6() {
 		this("J","Doe");
