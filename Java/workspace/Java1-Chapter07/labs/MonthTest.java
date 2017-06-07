@@ -11,12 +11,13 @@ public class MonthTest {
 		december.Month = "December";
 		december.days = 31;
 		december.Abv = "DEC";
-		december.print(false);
+		//december.print(false);
 		
 		Month[] MoNtHs = new Month[12];
 		
 		MoNtHs[0]=new Month();
 		
+		System.out.println(december);
 		
 		}
 	}

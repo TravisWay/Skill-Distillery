@@ -7,6 +7,25 @@ public class State {
 	private String capital;
 	private String SBird;
 	private int Population;
+	
+	
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("State [state=");
+		builder.append(state);
+		builder.append(", abv=");
+		builder.append(abv);
+		builder.append(", capital=");
+		builder.append(capital);
+		builder.append(", SBird=");
+		builder.append(SBird);
+		builder.append(", Population=");
+		builder.append(Population);
+		builder.append("]");
+		return builder.toString();
+	}
 	public String getState() {
 		return state;
 	}

@@ -28,22 +28,21 @@ public class Cipher {
 		for (int i = 0; i < ch.length; i++) {
 			if (ch[i] >= 65 && ch[i] <= 90) {
 
-				int j = ch[i]-65;
-	            
-		           int l = (j + shift) % 26;
-		            
-		           
-		         System.out.print((char)(l+65));
-			} else {
-				System.out.print(ch[i]);
+				if (ch[i] + shift > 90) {
+					int j = ch[i] - 65;
 
+					int l = (j + shift) % 26;
+
+					System.out.print((char) (l + 65));
+				} else {
+					System.out.print((char)ch[i]+shift);
+
+				}
+				
 			}
-
-			
-
-			
-			
-			
+			else{
+				System.out.print((char)ch[i]);
+			}
 		}
 	}
 
@@ -53,21 +52,24 @@ public class Cipher {
 
 		for (int i = 0; i < ch.length; i++) {
 			if (ch[i] >= 65 && ch[i] <= 90) {
-				
-				int j = ch[i]-65;
-	            
-		           int l = (j + (-1*(shift))) % 26;
-		            
-		           
-		         System.out.print((char)(l+65));
-			} else {
-				System.out.print(ch[i]);
 
+				if (ch[i] - shift < 65) {
+					int j = ch[i] - 65;
+
+					int l = (j + shift) % 26;
+
+					System.out.print((char) (90-l));
+				} else {
+					System.out.print((char) (ch[i] - shift));
+
+				}
 			}
-			
+			else{
+				System.out.print((char)ch[i]);
+			}
 		}
 	}
-		
+
 	public static void Menu() {
 
 		boolean check = true;

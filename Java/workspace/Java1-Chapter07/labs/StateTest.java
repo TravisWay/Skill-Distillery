@@ -8,7 +8,7 @@ public class StateTest {
 		State Washington = new State("Washington", "WA", "Olympia");
 		State Colorado = new State("Colorado","CO", "Denver");
 		State Oregon =new State("Oregon","OR", "Portland");
-		
+		System.out.println(Washington);
 		Washington.setPopulation(1000000);
 		Washington.setSBird("Seagull");
 		
