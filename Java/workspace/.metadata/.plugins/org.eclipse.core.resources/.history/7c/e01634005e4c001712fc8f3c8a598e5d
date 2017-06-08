@@ -1,22 +1,12 @@
 package labs;
 
-
 public class Zoo {
     public static void main(String[] args){
-    		
-    	Lion a1 = new Lion(); 
-		a1.setGender("Male");
-		a1.setWeight(400);
-		Giraffe a2 = new Giraffe();
-		a2.setGender("female");
-		a2.setWeight(1000);
-		
-		a2.EatLeaves();
-    	
-    	
-    	//        Animal a1 = new Animal("giraffe", 480); //name, weight
-//        Animal a2 = new Animal("lion", 300, "male"); //name, weight, gender
+        Animal a1 = new Animal("giraffe", 480); //name, weight
+        Animal a2 = new Animal("lion", 300, "male"); //name, weight, gender
         
+        a1.makeNoise();
+        a2.makeNoise();
         
         Animal [] arr = {a1,a2};
         soundOff(arr);

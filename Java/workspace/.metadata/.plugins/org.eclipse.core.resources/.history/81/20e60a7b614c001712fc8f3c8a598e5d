@@ -1,5 +1,8 @@
 package labs;
 
+import org.omg.CORBA.Policy;
+import org.omg.PortableServer.LifespanPolicyOperations;
+import org.omg.PortableServer.LifespanPolicyValue;
 
 public class Zoo {
     public static void main(String[] args){
@@ -10,8 +13,7 @@ public class Zoo {
 		Giraffe a2 = new Giraffe();
 		a2.setGender("female");
 		a2.setWeight(1000);
-		
-		a2.EatLeaves();
+			
     	
     	
     	//        Animal a1 = new Animal("giraffe", 480); //name, weight

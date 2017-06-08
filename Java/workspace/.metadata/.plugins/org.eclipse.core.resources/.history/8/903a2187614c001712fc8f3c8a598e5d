@@ -10,8 +10,7 @@ public class Zoo {
 		Giraffe a2 = new Giraffe();
 		a2.setGender("female");
 		a2.setWeight(1000);
-		
-		a2.EatLeaves();
+			
     	
     	
     	//        Animal a1 = new Animal("giraffe", 480); //name, weight

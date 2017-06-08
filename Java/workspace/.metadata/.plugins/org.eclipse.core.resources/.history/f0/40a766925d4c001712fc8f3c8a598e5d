@@ -7,10 +7,7 @@ public class Animal {
 	private String gender;
 	
 	
-	public Animal(){
 	
-	
-	}	
 	
 	
 	public Animal(String name, int weight) {
@@ -44,17 +41,17 @@ public class Animal {
 	}
 	
 	void makeNoise(){
-//		System.out.print(gender + " "+ name + ":");
-//		
-//		if(name.equals("lion")){
-//			System.out.println("Roar");
-//			
-//		}
-//		else{
-//			System.out.println("NOISE!");
-//			
-//			
-//		}
+		System.out.print(gender + " "+ name + ":");
+		
+		if(name.equals("lion")){
+			System.out.println("Roar");
+			
+		}
+		else{
+			System.out.println("NOISE!");
+			
+			
+		}
 		
 		
 	}

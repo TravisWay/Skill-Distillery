@@ -62,7 +62,7 @@ public class Employee6 {
 	public void Print() {
 		
 		//System.out.println(First + " " + Last + " " + ID + " " + Salary + " " + mWage + " " + rAge);
-		System.out.printf("%.2f",Salary);
+		System.out.printf("%.2f",Salary);""
 	}
 	
 	public String toString() {
