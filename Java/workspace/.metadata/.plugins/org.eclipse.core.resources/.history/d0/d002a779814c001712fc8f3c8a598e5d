@@ -2,8 +2,8 @@ package labs;
 
 public class Vehicle {
 
-	public int wheels;
-	public double price;
+	private int wheels;
+	private double price;
 	
 	
 	public Vehicle(int wheels, double price) {

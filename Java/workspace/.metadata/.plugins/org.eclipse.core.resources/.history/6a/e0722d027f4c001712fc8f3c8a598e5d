@@ -13,19 +13,7 @@ public class RegistrationTest {
 			System.out.println(four.calculateRegistrationFee());
 			System.out.println(standard.calculateRegistrationFee());
 		
-Automobile [] arr = new Automobile[3];
-
-arr[0] = six;
-arr[1] = four;
-arr[2] =standard;
-
-for (Automobile automobile : arr) {
-	System.out.println(automobile.calculateRegistrationFee());
-}
-
-
-			
-			
+		
 	}
 
 }

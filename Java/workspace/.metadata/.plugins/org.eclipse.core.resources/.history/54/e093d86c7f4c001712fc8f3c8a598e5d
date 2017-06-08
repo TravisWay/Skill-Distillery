@@ -2,7 +2,7 @@ package labs;
 
 public class Truck extends Automobile {
 
-	private int BedSize;
+	protected int BedSize;
 
 	public Truck() {
 		super();
@@ -62,8 +62,8 @@ public class Truck extends Automobile {
 		
 		}	
 		else{
+			super.calculateRegistrationFee();
 			
-			return super.calculateRegistrationFee();
 		}
 	
 	

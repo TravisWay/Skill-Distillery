@@ -2,7 +2,7 @@ package labs;
 
 public class Truck extends Automobile {
 
-	private int BedSize;
+	protected int BedSize;
 
 	public Truck() {
 		super();
@@ -51,20 +51,17 @@ public class Truck extends Automobile {
 		 base = .015;
 		
 			
-	
+	}
 		double more =(.0001*(java.time.Year.now().getValue()-Year));
 		if (more > (.005)){
 			more=.005;
 			
 		}
+		
 		double fee = price*(base - more);
 		return fee;	
 		
-		}	
-		else{
-			
-			return super.calculateRegistrationFee();
-		}
+		
 	
 	
 	}
