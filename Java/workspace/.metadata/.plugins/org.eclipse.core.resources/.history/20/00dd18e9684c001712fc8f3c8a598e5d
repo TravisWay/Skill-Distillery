@@ -1,0 +1,10 @@
+package labs;
+
+public class Automobile extends Vehicle {
+
+	protected String make;
+	protected String model;
+	protected String Year;
+	
+	
+}
