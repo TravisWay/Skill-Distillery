@@ -1,7 +1,5 @@
 package labs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-
 public class Truck extends Automobile {
 
 	protected int BedSize;
@@ -39,29 +37,7 @@ public class Truck extends Automobile {
 		builder.append("]");
 		return builder.toString();
 	}
-
-	@Override
-	public double calculateRegistrationFee() {
-		// TODO Auto-generated method stub
-		double base = .01;
-		
-		if(wheels> 4){
-		 base = .015;
-		
-			
-	}
-		double more =(.0001*(java.time.Year.now().getValue()-Year));
-		if (more > (.005)){
-			more=.005;
-			
-		}
-		
-		double fee = price*(base - more);
-		return fee;	
-		
-		
 	
 	
-	}
 	
-}	
+}

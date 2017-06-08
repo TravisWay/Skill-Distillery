@@ -1,6 +1,5 @@
 package labs;
 
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 public class Truck extends Automobile {
 
@@ -43,23 +42,14 @@ public class Truck extends Automobile {
 	@Override
 	public double calculateRegistrationFee() {
 		// TODO Auto-generated method stub
-		double base = .01;
-		
 		if(wheels> 4){
-		 base = .015;
 		
-			
+		return (super.calculateRegistrationFee()) +(super.calculateRegistrationFee()*1.5);
 	}
-		double more =(.0001*(java.time.Year.now().getValue()-Year));
-		if (more > (.005)){
-			more=.005;
-			
+		else{
+		return super.calculateRegistrationFee();	
+		
 		}
-		
-		double fee = price*(base - more);
-		return fee;	
-		
-		
 	
 	
 	}

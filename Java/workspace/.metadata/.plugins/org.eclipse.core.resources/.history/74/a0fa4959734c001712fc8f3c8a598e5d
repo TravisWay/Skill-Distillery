@@ -61,12 +61,12 @@ public class Automobile extends Vehicle {
 	
 	public double calculateRegistrationFee() {
 		double more =(.0001*(java.time.Year.now().getValue()-Year));
-		if (more > (.005)){
-			more=.005;
+		if (more > (.0005)){
+			more=.0005;
 			
 		}
 		
-		double fee = price*(.01 - more);
+		double fee = price*(.001 - more);
 		return fee;
 		
 		
