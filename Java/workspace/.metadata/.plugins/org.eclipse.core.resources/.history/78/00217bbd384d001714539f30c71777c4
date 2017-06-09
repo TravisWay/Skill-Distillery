@@ -1,0 +1,38 @@
+package labs;
+
+public class Rectangle extends Shape{
+
+	private int width;
+	private int height;
+
+	public Rectangle(String color,int width, int height) {
+		super(color);
+		setHeight(height);
+		setWidth(width);
+		
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void getArea() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+}

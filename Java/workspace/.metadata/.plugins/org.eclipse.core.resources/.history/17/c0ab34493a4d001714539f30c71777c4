@@ -1,0 +1,31 @@
+package labs;
+
+public class Circle extends Shape {
+
+	private int radius;
+	
+	
+
+
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
+	public Circle(Color myColor,int radius) {
+		super(myColor);
+		setRadius(radius);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void getArea() {
+		double area;
+		area = Math.PI * (radius * radius);
+		System.out.println(area +" is the area of the Circle");
+	}
+
+}
