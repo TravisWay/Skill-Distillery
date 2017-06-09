@@ -9,9 +9,9 @@ public class RegistrationTest {
 		Truck four = new Truck(4, 86000, "ford", "f150", 2016, 5);
 		Truck six = new Truck(6, 86000, "ford", "f150", 2016, 5);
 		
-		System.out.println(six.calculateRegistrationFee());
-			System.out.println(four.calculateRegistrationFee());
-			System.out.println(standard.calculateRegistrationFee());
+		//System.out.println(six.calculateRegistrationFee());
+			//System.out.println(four.calculateRegistrationFee());
+			//System.out.println(standard.calculateRegistrationFee());
 		
 Automobile [] arr = new Automobile[3];
 
@@ -20,7 +20,7 @@ arr[1] = four;
 arr[2] =standard;
 
 for (Automobile automobile : arr) {
-	System.out.println(automobile.calculateRegistrationFee());
+	//System.out.println(automobile.calculateRegistrationFee());
 }
 
 

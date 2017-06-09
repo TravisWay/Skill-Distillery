@@ -1,0 +1,41 @@
+package labs;
+
+import java.util.Scanner;
+
+import com.sun.javafx.scene.EnteredExitedHandler;
+
+public class UniqueAlgo {
+
+	public static void  main( String [] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter a string:");
+		
+		String test = input.nextLine();
+		
+		char[] a=test.toCharArray();
+		
+		char [] b = test.toCharArray();
+		int counter = 0;
+		
+		for (int i = 0; i < b.length; i++) {
+			char c = b[i];
+			for (int j = 0; j < a.length;) {
+				if(c == a[j+1]){
+					System.out.println("This is not a unique string.  No two letters can be the same");
+					
+				}
+				j++;
+			}
+			
+		}
+		if(counter ==0){
+			System.out.println("Well done! No two characters are the same");
+			
+		}
+		
+		
+	}
+	
+}

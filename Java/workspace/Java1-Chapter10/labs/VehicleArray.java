@@ -7,7 +7,7 @@ public class VehicleArray {
 		// TODO Auto-generated method stub
 
 		Object [] arr = new Vehicle[3];
-		Bicycle two = new Bicycle();
+		Bicycle two = new Bicycle(3, 1000, 17);
 		Automobile four = new Automobile();
 		Truck six = new Truck();
 		
@@ -16,7 +16,7 @@ public class VehicleArray {
 		arr[2] = six;
 		
 		for (Object vehicle : arr) {
-			System.out.println(vehicle);
+			System.out.println(vehicle.toString());
 		}
 		
 		

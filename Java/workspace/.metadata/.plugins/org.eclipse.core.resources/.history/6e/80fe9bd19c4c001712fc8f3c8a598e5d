@@ -1,0 +1,65 @@
+package Game;
+
+import java.util.Scanner;
+
+//When the program starts, the user is welcomed and presented with a list of available commands.
+
+public class Game {
+    
+	PlayerOne playerOne = new PlayerOne();
+	
+     // create game method
+    public void playGame(){
+        System.out.println("Ahh I see that your a brave soul to start this adventure! ");
+        System.out.println("****  you can move foward (type in f)  ***");
+        System.out.println("****  you can move left   (type in l)  ***");
+        System.out.println("****  you can move right  (type in r) ***");
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter 1 if you would like to enter the game \n Enter 2 if you would like to Quit the game ");
+        char chooseMovement = input.next().charAt(0);
+        
+        boolean dead = false;
+        
+        
+        while(dead){
+            
+            int counter = 0;
+            System.out.println("****  you can move foward (type in f)  ***\n ****  you can move left   (type in l)  *** \n ****  you can move left"
+                    + "   (type in l)  ***" );
+            
+            chooseMovement = input.next().charAt(0);
+
+            if(chooseMovement == 'f' || chooseMovement == 'l' || chooseMovement == 'r')
+            {
+                counter++;
+            }
+            if(counter == 3){
+                System.out.println("your under attack!");
+                playerOne.takehit();
+                System.out.println("Do you want to attack, press 'a' to attack! ");
+                chooseMovement =  input.next().charAt(0);
+                if(chooseMovement == 'a')
+                {
+                    playerOne.attack();
+                    
+                    
+                }
+                
+                
+                
+
+            }
+            
+        }
+        
+        
+            
+
+        
+    }
+    
+    
+    
+
+}
