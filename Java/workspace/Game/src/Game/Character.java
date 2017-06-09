@@ -1,22 +1,28 @@
 package Game;
 
 public abstract class Character {
+	protected int health;
+	protected int damage;
 
-	public int health;
-	public int damage;
+	public int getDamage() {
+		return damage;
+	}
+
+	public void setDamage(int damage) {
+		this.damage = damage;
+	}
 
 	public Character() {
 		super();
 	}
 
 	public abstract int attack();
+	
 
-	public abstract int takehit();
-
-	public Character(int health) {
+	public Character(int health, int damage) {
 		super();
 		this.health = health;
-		
+		this.damage = damage;
 	}
 
 	public int getHealth() {
@@ -27,12 +33,9 @@ public abstract class Character {
 		this.health = health;
 	}
 
-	public int getDamage() {
-		return damage;
-	}
-
-	public void setDamage(int damage) {
-		this.damage = damage;
+	public int takehit() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

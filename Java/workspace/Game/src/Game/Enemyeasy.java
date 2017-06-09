@@ -1,37 +1,42 @@
 package Game;
 
-public class PlayerOne extends Character{
+public class Enemyeasy extends Badguys {
 
-	public PlayerOne() {
+	public Enemyeasy() {
 		super();
 	}
 
 	
 
-	public PlayerOne(int health, int damage) {
+		public Enemyeasy(int health, int damage) {
 		setDamage(damage);
 		setHealth(health);
 		// TODO Auto-generated constructor stub
 	}
 
 
-
 	
 	public int takehit(int damagedone) {
 		// TODO Auto-generated method stub
-		
-		System.out.println(
-				"You were hit. " + damagedone + "pts taken away. You have " + (health - damagedone) + " remaining");
+		System.out.println("You have hit the enemy. " + damagedone + "pts taken away. Scary monster has "
+				+ (health - damagedone) + " remaining");
 
 		health = health - damagedone;
-		setHealth(health);
 		return health;
 
 	}
 
 
+	
 
-	@Override
+	public void dead() {
+		System.out.println("This enemy is dead");
+
+	}
+
+
+
+	
 	public int attack() {
 		// TODO Auto-generated method stub
 		return damage;
