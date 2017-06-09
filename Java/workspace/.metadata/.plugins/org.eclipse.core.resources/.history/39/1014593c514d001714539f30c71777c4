@@ -1,0 +1,36 @@
+package examples;
+
+import java.util.Scanner;
+
+import com.sun.glass.ui.Pixels.Format;
+
+public class Divide {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Please enter an int: ");
+		int num1 = keyboard.nextInt();
+		try {
+		
+			
+		} catch (Exception e) {
+	
+			
+			
+		}
+		
+		
+		System.out.print("Please enter another int: ");
+		int num2 = keyboard.nextInt();
+		try {
+			
+			
+		} catch (ArithmeticException e) {
+			// TODO: handle exception
+		}
+		keyboard.close();
+		
+		int result = num1 / num2;
+		System.out.println(num1 + " / " + num2 + " = " + result);
+	}
+}

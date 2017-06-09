@@ -15,16 +15,25 @@ public class Divide {
 			System.out.print("Please enter another int: ");
 			num2 = keyboard.nextInt(); 
 		} catch (InputMismatchException f) {
-			System.err.println("not a valid number.");
+			System.err.println(num1 + " is not a valid number.");
 			num1 = num2 =1;
-			result = num1 / num2;
-			} catch (ArithmeticException e) {
-			System.err.println("can not divide by this.");
 			
 		}
-
+		
+		
+		num2 = keyboard.nextInt();
+		try {
+			
+		result = num1 / num2;
+			
+			
+		} catch (ArithmeticException e) {
+			System.err.println(num2 + " can not divide by this.");
+			
+		}
+		int result = num1 / num2;
 		keyboard.close();
 		
-		
+		System.out.println(num1 + " / " + num2 + " = " + result);
 	}
 }
