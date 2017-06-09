@@ -1,0 +1,30 @@
+package Game;
+
+public abstract class Character {
+
+	public int health;
+	public int damagedone;
+ 
+	
+	public Character() {
+		super();
+	}
+
+	public abstract int attack();
+	
+
+	public Character(int health, int damagedone) {
+		super();
+		this.health = health;
+		
+	}
+
+	public int getHealth() {
+		return health;
+	}
+
+	public void setHealth(int health) {
+		this.health = health;
+	}
+
+

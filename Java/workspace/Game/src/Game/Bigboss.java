@@ -27,7 +27,7 @@ public class Bigboss extends Character {
 	
 	public int takehit(int damagedone)  {
 		// TODO Auto-generated method stub
-		System.out.println("You have hit the enemy. " + damagedone + "pts taken away. BIG BOSS has "
+		System.out.println("\nYou have hit the enemy. " + damagedone + "pts taken away. BIG BOSS has "
 				+ (health - damagedone) + " remaining");
 
 		health = health - damagedone;

@@ -1,0 +1,53 @@
+package Game;
+
+public class PlayerOne extends Character {
+
+	public PlayerOne() {
+		super();
+	}
+
+	
+
+	public PlayerOne(int health, int damagedone) {
+		setDamagedone(damagedone);
+		setHealth(100);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	
+
+	public int getDamagedone() {
+		return damagedone;
+	}
+
+	public void setDamagedone(int damagedone) {
+		this.damagedone = 5;
+	}
+
+	
+	public int takehit() {
+		// TODO Auto-generated method stub
+		
+		getDamagedone();
+		System.out.println(
+				"You were hit. " + damagedone + "pts taken away. You have " + (health - damagedone) + " remaining");
+
+		health = health - damagedone;
+		setHealth(health);
+		return health;
+
+	}
+
+
+
+	@Override
+	public int attack() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+
+}
