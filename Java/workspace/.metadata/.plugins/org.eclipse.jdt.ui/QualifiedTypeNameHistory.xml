@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="labs.Animal"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.LifespanPolicyOperations"/>
-<fullyQualifiedTypeName name="labs.Lion"/>
-<fullyQualifiedTypeName name="labs.Giraffe"/>
-<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.resolver.helpers.PublicId"/>
-<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.RuntimeUtil.ToStringAdapter"/>
-<fullyQualifiedTypeName name="sun.security.action.GetBooleanAction"/>
-<fullyQualifiedTypeName name="com.sun.javafx.css.CalculatedValue"/>
-<fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dv.util.Base64"/>
 <fullyQualifiedTypeName name="labs.VehicleArray"/>
 <fullyQualifiedTypeName name="labs.Vehicle"/>
 <fullyQualifiedTypeName name="labs.Automobile"/>
@@ -36,7 +27,6 @@
 <fullyQualifiedTypeName name="labs.Drawable"/>
 <fullyQualifiedTypeName name="com.sun.glass.ui.Pixels.Format"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="examples.BadAgeException"/>
 <fullyQualifiedTypeName name="solutions.BadAgeException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -55,9 +45,19 @@
 <fullyQualifiedTypeName name="Jets.Hangar"/>
 <fullyQualifiedTypeName name="Jets.Menu"/>
 <fullyQualifiedTypeName name="Jets.Jet"/>
+<fullyQualifiedTypeName name="Jets.Pilot"/>
+<fullyQualifiedTypeName name="Jets.Barracks"/>
+<fullyQualifiedTypeName name="com.skilldistillery.calc.Calculator"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="com.skilldistillery.calc.CannotDoThatException"/>
+<fullyQualifiedTypeName name="sun.security.util.Length"/>
+<fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.resolver.helpers.PublicId"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="Jets.Pilot"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="Jets.Barracks"/>
 </qualifiedTypeNameHistroy>

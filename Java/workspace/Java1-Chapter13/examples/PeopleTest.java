@@ -1,14 +1,16 @@
 package examples;
 
+import solutions.BadAgeException;
+
 public class PeopleTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws BadAgeException {
         Person[] people;
 
         people = new Person[3];
         try {
-            people[0] = new Person("Bob");
-            people[1] = new Person("Jane");
-            people[2] = new Person("John");
+            people[0] = new Person("Bob",4);
+            people[1] = new Person("Jane",4);
+            people[2] = new Person("John",4);
         }
         catch (InvalidDataException e) {
             System.err.println(e.getMessage());
