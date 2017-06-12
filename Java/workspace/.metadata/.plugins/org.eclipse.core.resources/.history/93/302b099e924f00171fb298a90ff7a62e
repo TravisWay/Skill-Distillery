@@ -1,0 +1,42 @@
+package com.skilldistillery.stringtest;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import sun.security.util.Length;
+
+public class StringTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test_CharAt_returns_character_at_index() {
+		String tester = "abcde";
+		assertEquals('a', tester.charAt(0));
+		assertEquals('e', tester.charAt(4));
+		
+	}
+	@Test
+	public void test_CharAt_throws_IndexOutOfBounds_for_negative_or_notless_than_Length_of_string(){
+	try {
+		String tester = "-1";
+		fail("Should have thrown exception here");
+	} catch (IndexOutOfBoundsException e) {
+		// TODO: handle exception
+		
+		
+	}d
+		
+		
+	}
+
+}
