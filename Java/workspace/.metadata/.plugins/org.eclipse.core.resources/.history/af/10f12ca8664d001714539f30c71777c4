@@ -1,0 +1,14 @@
+package Jets;
+
+public class SR71 extends Jets {
+
+	public SR71(String model, float speed, float range, int capacity) {
+		
+		setCapacity(capacity);
+		setModel(model);
+		setRange(range);
+		setSpeed(speed);
+		
+	}
+
+}

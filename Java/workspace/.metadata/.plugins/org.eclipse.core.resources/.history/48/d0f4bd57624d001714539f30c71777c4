@@ -1,0 +1,10 @@
+package Jets;
+
+public class F16 extends Jets {
+
+	public F16(String model, float speed, float range, int capacity) {
+		super(model, speed, range, capacity);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,13 @@
+package Jets;
+
+public class F22 extends Jets {
+
+	public F22(String model, float speed, float range, int capacity) {
+		super(model, speed, range, capacity);
+		setCapacity(capacity);
+		setModel(model);
+		setRange(range);
+		setSpeed(speed);
+	}
+	
+}

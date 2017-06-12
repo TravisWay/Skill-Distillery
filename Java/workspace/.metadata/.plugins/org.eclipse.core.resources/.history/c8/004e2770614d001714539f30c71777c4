@@ -1,0 +1,14 @@
+package Jets;
+
+public class Boeing747 extends Jets {
+
+	public Boeing747(String model, float speed, float range, int capacity) {
+		super(model, speed, range, capacity);
+		setCapacity(capacity);
+		setModel(model);
+		setRange(range);
+		setSpeed(speed);
+		// TODO Auto-generated constructor stub
+	}
+
+}

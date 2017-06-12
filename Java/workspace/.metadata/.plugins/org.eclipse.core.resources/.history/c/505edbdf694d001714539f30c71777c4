@@ -1,0 +1,28 @@
+package Jets;
+
+public class Hangar {
+
+	public static Jet[] jets = new Jet[100];
+
+	public void addJet(Jet j1) {
+		for (Jet jet : jets) {
+			if (jet == null) {
+				jet = j1;
+
+			}
+		}
+
+	}
+
+	public Jet[] getJets() {
+		return jets;
+	}
+
+	public void setJets(Jet[] jets) {
+		this.jets = jets;
+	}
+
+	public Hangar() {
+		
+	}
+}
