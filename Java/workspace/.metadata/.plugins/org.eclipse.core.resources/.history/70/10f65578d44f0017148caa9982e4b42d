@@ -17,11 +17,10 @@ public class Reader {
 			bufIn = new BufferedReader(new FileReader("presidents.csv"));
 
 			String line;
-			//Reads through the csv file and stores the elements from each line into a president object which is part of a List.
 			while ((line = bufIn.readLine()) != null) {
 				String[] presArr = line.split(", ");
 				President newPres = new President();
-				
+				//¯\_(ツ)_/¯
 				newPres.setTermNumber(Integer.parseInt(presArr[0]));
 				newPres.setFirstName(presArr[1]);
 				newPres.setMiddleName(presArr[2] + " ");
@@ -94,7 +93,7 @@ public class Reader {
 		try {
 			StringBuilder content = new StringBuilder();
 			for (int i = 0; i < makePartyList(p, party).size(); i++){
-			content.append(makePartyList(p, party).get(i).getFirstName() + " " + makePartyList(p, party).get(i).getLastName()+ "\n");
+			content.append(makePartyList(p, party).get(i).getFirstName() + " " + makePartyList(p, party).get(i).getLastName());
 			}
 			String content2 = content.toString();
 			fw = new FileWriter(party);

@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="labs.VehicleArray"/>
-<fullyQualifiedTypeName name="labs.Vehicle"/>
-<fullyQualifiedTypeName name="labs.Automobile"/>
-<fullyQualifiedTypeName name="com.sun.swing.internal.plaf.metal.resources.metal_zh_TW"/>
-<fullyQualifiedTypeName name="labs.Truck"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="labs.Bicycle"/>
-<fullyQualifiedTypeName name="com.sun.javafx.scene.EnteredExitedHandler"/>
-<fullyQualifiedTypeName name="sun.tools.jar.resources.jar"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
-<fullyQualifiedTypeName name="java.lang.Deprecated"/>
-<fullyQualifiedTypeName name="Game.PlayerOne"/>
 <fullyQualifiedTypeName name="Game.Enemy"/>
 <fullyQualifiedTypeName name="Game.Game"/>
 <fullyQualifiedTypeName name="Game.Goodguys"/>
@@ -56,8 +44,20 @@
 <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.resolver.helpers.PublicId"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.sun.javafx.collections.SortableList"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Collections"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="Presidents.Reader"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="Presidents.President"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
