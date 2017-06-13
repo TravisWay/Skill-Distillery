@@ -1,0 +1,42 @@
+package Presidents;
+
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Reader {
+
+	public static void Reader() {
+		BufferedReader bufIn = null;
+        try {
+            bufIn = new BufferedReader(new FileReader("presidents.csv"));
+
+            President pres;
+            while ((pres = bufIn.readLine()) != null) {
+            	List<President> fields = new ArrayList<>(); 
+            			fields.add(pres);
+            }
+        }
+        catch (IOException e) {
+            System.err.println(e);
+        }
+        finally {
+            if (bufIn != null) {
+                try {
+                    bufIn.close();
+                }
+                catch (IOException e) {
+                    System.err.println(e);
+                }
+            }
+        }
+	}
+
+	public static void main(String[] args) {
+		Reader();
+
+	}
+
+}

@@ -25,11 +25,13 @@ public class Students {
 		students.add("Jake");
 		students.add("Jake");
 		
+		
 		for (int i = 0; i < students.size(); i++) {
 			System.out.println(students.get(i));
 		}
 		
 		
 	}
-
+	
+	
 }

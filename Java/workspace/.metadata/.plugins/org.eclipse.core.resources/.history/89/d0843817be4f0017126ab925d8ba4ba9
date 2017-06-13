@@ -1,0 +1,40 @@
+package Presidents;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Reader {
+
+	public Reader() {
+		BufferedReader bufIn = null;
+        try {
+            bufIn = new BufferedReader(new FileReader("presidents.csv"));
+
+            String line;
+            while ((line = bufIn.readLine()) != null) {
+            	String [] fields = line.split(",");
+            	System.out.println(fields[0] + "-" + fields[4]);
+            }
+        }
+        catch (IOException e) {
+            System.err.println(e);
+        }
+        finally {
+            if (bufIn != null) {
+                try {
+                    bufIn.close();
+                }
+                catch (IOException e) {
+                    System.err.println(e);
+                }
+            }
+        }
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

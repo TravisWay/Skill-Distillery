@@ -12,7 +12,8 @@ public class ReadIt {
 
             String line;
             while ((line = bufIn.readLine()) != null) {
-                System.out.println(line);
+            	String [] fields = line.split(":");
+            	System.out.println(fields[0] + "-" + fields[4]);
             }
         }
         catch (IOException e) {

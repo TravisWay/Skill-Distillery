@@ -1,0 +1,69 @@
+package Presidents;
+
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Reader {
+	static List<President> presList = new ArrayList<>();
+
+	public static void Reader() {
+		BufferedReader bufIn = null;
+		try {
+			bufIn = new BufferedReader(new FileReader("presidents.csv"));
+
+			String line;
+			while ((line = bufIn.readLine()) != null) {
+				String[] presArr = line.split(", ");
+				President newPres = new President();
+
+				newPres.setTermNumber(Integer.parseInt(presArr[0]));
+				newPres.setFirstName(presArr[1]);
+				newPres.setMiddleName(presArr[2]);
+				newPres.setLastName(presArr[3]);
+				String[] term = presArr[4].split("-");
+				newPres.setStartYear(Integer.parseInt(term[0]));
+				newPres.setEndYear(Integer.parseInt(term[1]));
+				newPres.setParty(presArr[5]);
+
+				presList.add(newPres);
+
+			}
+			printPresidents();
+			
+		} catch (IOException e) {
+			System.err.println(e);
+		} finally {
+			if (bufIn != null) {
+				try {
+					bufIn.close();
+				} catch (IOException e) {
+					System.err.println(e);
+				}
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		Reader();
+	}
+
+	public static void printPresidents() {
+		for (President president : presList) {
+			System.out.println(president);
+		}
+	}
+	
+	public static President makePartyList(List<President> p, String party) {
+		for (int i = 0; i < p.size(); i++) {
+			List<President> presParty = new ArrayList<>(); 
+			if (presList.get(i).getParty().equals(party)) {
+				
+			}
+			
+		}
+		
+	}
+}
