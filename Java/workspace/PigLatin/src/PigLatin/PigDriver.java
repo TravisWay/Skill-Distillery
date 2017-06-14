@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PigDriver {
-	static List <String> mine = new ArrayList<>(100);
+	static List <String> mine = new ArrayList<>();
 	static StringBuilder test = new StringBuilder();
 
 	public static void main(String[] args) {

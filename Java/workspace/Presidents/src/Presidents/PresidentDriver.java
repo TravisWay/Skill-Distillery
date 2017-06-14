@@ -10,6 +10,3 @@ public class PresidentDriver {
 }
 
 
-303 555-1234
-
-rob@gmail.gov.gov
