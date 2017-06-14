@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 public class PigDriver {
 	static List <String> mine = new ArrayList<>(100);
-	static StringBuilder test = new StringBuilder();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,8 +19,6 @@ public class PigDriver {
 		pigcheck(mine.get(i));
 		
 		}
-		System.out.println(test);
-		
 		
 	}
 	public static void breakdown(String string){
@@ -46,14 +43,10 @@ public class PigDriver {
 	
 	
 	public static void pigcheck(String a){
-//	System.out.print(Con(a)+
-//		Vowel(a)+
-//		ConVowel(a) + " ");
-//	
-	
-		test.append(Con(a)+
-				Vowel(a)+
-				ConVowel(a) + " ");
+	System.out.print(Con(a)+
+		Vowel(a)+
+		ConVowel(a) + " ");
+		
 	}
 	
 	
