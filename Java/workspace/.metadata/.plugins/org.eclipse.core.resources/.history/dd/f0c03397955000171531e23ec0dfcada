@@ -1,5 +1,7 @@
 package PigLatin;
 
+
+
 import java.util.*;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -46,9 +48,9 @@ public class PigDriver {
 	
 	
 	public static void pigcheck(String a){
-	System.out.print(Con(a)+
+	System.out.println(Con(a)+
 		Vowel(a)+
-		ConVowel(a) + " ");
+		ConVowel(a));
 		
 	}
 	
