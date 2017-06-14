@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Game.Badguys"/>
-<fullyQualifiedTypeName name="labs.Shape"/>
 <fullyQualifiedTypeName name="labs.Color"/>
 <fullyQualifiedTypeName name="labs.Circle"/>
 <fullyQualifiedTypeName name="labs.Rectangle"/>
@@ -44,20 +42,22 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="Presidents.President"/>
 <fullyQualifiedTypeName name="Presidents.Reader"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
-<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
 <fullyQualifiedTypeName name="java.io.Console"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.FormatFlagsConversionMismatchException"/>
 <fullyQualifiedTypeName name="java.util.MissingFormatArgumentException"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.io.Reader"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="DecIn.DecIn"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
