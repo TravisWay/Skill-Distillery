@@ -8,11 +8,11 @@ import java.util.Set;
 
 public class Guess {
     public static void main(String args[]) throws IOException {
-        String s1 = new String("abc");
-        String s2 = new String("abc");
-        String s3 = new String("abcd");
+        StringBuilder s1 = new StringBuilder("abc");
+        StringBuilder s2 = new StringBuilder("abc");
+        StringBuilder s3 = new StringBuilder("abcd");
 
-        Set<String> mySet = new HashSet<>();
+        Set<StringBuilder> mySet = new HashSet<>();
         mySet.add(s1);
         mySet.add(s2);
         mySet.add(s3);
@@ -25,7 +25,7 @@ public class Guess {
 
         if (guess == mySet.size()) {
             System.out.println("\nCORRECT!!!\n\nElements: ");
-            for (String s : mySet) {
+            for (StringBuilder s : mySet) {
                 System.out.println("Value: " + s + " Hash Code: "
                         + s.hashCode());
             }
