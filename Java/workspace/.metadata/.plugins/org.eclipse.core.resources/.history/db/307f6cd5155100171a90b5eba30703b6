@@ -24,7 +24,6 @@ public class DecIn {
 			while ((line = bufIn.readLine()) != null) {
 				String[] words2 = line.split("\\n");
 				words.add(words2[0]);
-				counter++;
 			}
 
 		} catch (IOException e) {
