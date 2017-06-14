@@ -1,0 +1,39 @@
+package PigLatin;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PigDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String twocons = "[^AEIOUaeiou \\s][^AEIOUaeiou \\s]";
+		String aeiou = "[AEIOUaeiou]";
+		Pattern p = Pattern.compile(aeiou);
+		String a = "Awesome";
+		Matcher m = p.matcher(a);
+		boolean result = m.find();
+		if(result){
+			Matcher m2 = p.matcher(a);
+			System.out.println(a+"way");
+		}
+		
+		final String regex = "(^[^AEIOUaeiou \\s][^AEIOUaeiou \\s])";
+		final String string = "bbbabbbb\n\n"
+			 + "abbbbb\n"
+			 + "aabbbb\n"
+			 + "  jjjjj   l l l ll ";
+		final String subst = "";
+
+		final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
+		final Matcher matcher = pattern.matcher(string);
+
+		// The substituted value will be contained in the result variable
+		final String result = matcher.replaceAll(subst);
+
+		System.out.println("Substitution result: " + result);
+		
+	}
+
+}

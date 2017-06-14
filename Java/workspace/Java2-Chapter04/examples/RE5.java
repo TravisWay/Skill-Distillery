@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 
 public class RE5 {
   public static void main(String args[]) {
-    String s = "My dog likes to eat. My dog's name is Fred.";
+    String s = "Happy";
 
-    Pattern p = Pattern.compile("[dD]og");
+    Pattern p = Pattern.compile("[aeiou]");
     Matcher m = p.matcher(s);
 
     String newString = m.replaceFirst("cat");

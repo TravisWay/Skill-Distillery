@@ -1,0 +1,22 @@
+package PigLatin;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PigDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String aeiou = "[AEIOUaeiou]";
+		Pattern p = Pattern.compile(aeiou);
+		String a = "Awesome";
+		Matcher m = p.matcher(a);
+		boolean result = m.find();
+		if(result){
+			Matcher m2 = p.matcher(a);
+			System.out.println(a+"way");
+		}
+		
+	}
+
+}
