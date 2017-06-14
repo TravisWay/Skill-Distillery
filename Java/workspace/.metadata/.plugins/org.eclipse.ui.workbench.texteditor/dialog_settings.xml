@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="false" key="isRegEx"/>
-		<item value="DollarType" key="selection"/>
+		<item value="true" key="isRegEx"/>
+		<item value="&quot;S+@[w-]+(.[w-]+)+&quot;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="\S+\@[\w-]+(\.[\w-]+)+"/>
+			<item value="\"/>
 			<item value="dollartype"/>
 			<item value="Scanner input = new Scanner(System.in);"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&quot;\S+\@[\w-]+(\.[\w-]+)+&quot;"/>
 			<item value="DollarType"/>
 		</list>
 	</section>

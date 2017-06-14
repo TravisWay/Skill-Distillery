@@ -1,8 +1,11 @@
 package PigLatin;
 
 import java.util.*;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
 
 public class PigDriver {
 	static List <String> mine = new ArrayList<>(100);
@@ -59,7 +62,7 @@ public class PigDriver {
 		Matcher m = p.matcher(a);
 		boolean result = m.find();
 		if(result){
-			
+			Matcher m2 = p.matcher(a);
 			
 			returnit= a +"way";
 		}
