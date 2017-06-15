@@ -60,7 +60,7 @@ public class RomanNumeralTranslator {
 		thousands.put('1', "M");
 		thousands.put('2', "MM");
 		thousands.put('3', "MMM");
-		thousands.put('4', "Mv");
+		thousands.put('4', "MMMv");
 		thousands.put('5', "v");
 		thousands.put('6', "vM");
 		thousands.put('7', "vMM");
