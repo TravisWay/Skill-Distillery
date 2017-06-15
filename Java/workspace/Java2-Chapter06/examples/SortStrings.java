@@ -15,8 +15,15 @@ public class SortStrings {
         students.add("Juan");
 
 
-        for (String student : students) {
-            System.out.println(student);
+       // for (String student : students) {
+        //    System.out.println(student);
+        //}
+        
+        for (int i = 0; i < 100; i++) {
+			
+		
+        //System.out.println(Math.floor(Math.random()*52));
+        System.out.println(((int)(Math.ceil(Math.random()* 52))));
         }
     }
 }

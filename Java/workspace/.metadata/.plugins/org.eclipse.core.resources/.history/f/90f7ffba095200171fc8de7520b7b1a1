@@ -1,0 +1,55 @@
+package examples;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+
+
+
+public class LogCount {
+
+	static Map<Integer,Map<String, String>> Log = new HashMap<>();
+	static int counter = 0;
+
+	public static void Reader() {
+		BufferedReader bufIn = null;
+		try {
+			bufIn = new BufferedReader(new FileReader("access_log"));
+
+			String line;
+			// Reads through the csv file and stores the elements from each line
+			// into a president object which is part of a List.
+			while ((line = bufIn.readLine()) != null) {
+				String[] line2 = line.split(" - - ");
+				
+				
+				if(Log.containsKey(line2[0])){
+				counter++;	
+				}
+				Log.put(line2[0], line2[1]);
+				
+			}
+		} catch (IOException e) {
+			System.err.println(e);
+		} finally {
+			if (bufIn != null) {
+				try {
+					bufIn.close();
+				} catch (IOException e) {
+					System.err.println(e);
+				}
+			}
+		}
+	System.out.println(Log.size());
+	System.out.println(counter);
+	
+	
+	
+	}
+
+}
