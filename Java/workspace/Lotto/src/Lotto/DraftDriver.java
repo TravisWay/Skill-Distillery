@@ -7,6 +7,7 @@ public class DraftDriver {
 	BallFactory b1 = new BallFactory();
 	
 	List<Ball> BList = new ArrayList<>();
+	List<Ball> BList2 = new ArrayList<>();
 	
 	
 	public DraftDriver(){
@@ -26,7 +27,7 @@ public class DraftDriver {
 //		 6, 5};
 //		
 		
-
+		System.out.println("How many hoppers do you require?");
 		
 		 Hopper AllBalls = new Hopper();
 		 
@@ -46,28 +47,28 @@ public class DraftDriver {
 		 
 		 
 //		 for (int i = 1; i < text; i++) {
-//		nbaBalls.addall(b1.createBall(Integer.toString(i)));
+//		BList.add(b1.createBall(Integer.toString(i)));
 //
 //		}
 //
 //	for (int i = 1; i < 26; i++) {
-//			nbaBalls2.add(b1.createBall(Integer.toString(i)));
+//			BList2.add(b1.createBall(Integer.toString(i)));
 //	}
 //
 //
 //
 //		for (int h = 0; h < 1; h++) {
-//			nba.shuffle(nbaBalls2);
+//			.shuffle(nbaBalls2);
 //		}
 //			System.out.println("Red: " + nbaBalls2.get(0));
-
-				//for (int j = 0; j < 5; j++) {
-					
-			
-
-				
-
-			//}
+//
+//				//for (int j = 0; j < 5; j++) {
+//					
+//			
+//
+//				
+//
+//			//}
 
 			// System.out.println(nbaBalls + "\n");
 	}		// System.out.println(nbaBalls.size());

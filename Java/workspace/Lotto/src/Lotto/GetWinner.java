@@ -14,6 +14,11 @@ public class GetWinner {
 	Scanner input = new Scanner(System.in);	
 	Map<String, Integer> Input	= new HashMap<>();
 	
+	System.out.println("How many hoppers do you need");
+	
+	
+		
+	
 	System.out.println("How many different balls do you need?");
 	int amount = input.nextInt();
 	for (int i = 0; i < amount; i++) {

@@ -18,11 +18,8 @@ public class Ball extends BallFactory{
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Ball [id=");
-		builder.append(id);
-		builder.append("]");
-		return builder.toString();
+		
+		return id;
 	}
 	
 	
