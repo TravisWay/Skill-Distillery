@@ -1,0 +1,30 @@
+package com.skilldistillery.Bingo;
+
+
+
+public class Card {
+
+	private CardSpot = new Cardspot(); 
+	private CardSpot[][] newCard;
+	
+	
+	public Card(int number,int numbertwo) {
+		super();
+		this.newCard = Cardspot[number][numbertwo];
+	}
+
+	public CardSpot[][] getNewCard() {
+		return newCard;
+	}
+
+	public void setNewCard(CardSpot[][] newCard) {
+		this.newCard = newCard;
+	}
+
+	
+	
+	
+	
+	
+	
+}

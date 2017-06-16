@@ -1,0 +1,14 @@
+package com.skilldistillery.Bingo;
+
+
+
+public class Card {
+
+	CardSpot[][] newCard = new CardSpot[5][5];
+	
+	
+	
+	
+	
+	
+}

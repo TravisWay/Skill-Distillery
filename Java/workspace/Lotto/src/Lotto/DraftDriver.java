@@ -27,7 +27,6 @@ public class DraftDriver {
 //		 6, 5};
 //		
 		
-		System.out.println("How many hoppers do you require?");
 		
 		 Hopper AllBalls = new Hopper();
 		 

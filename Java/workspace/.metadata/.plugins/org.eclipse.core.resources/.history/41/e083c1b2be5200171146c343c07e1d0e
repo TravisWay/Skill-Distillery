@@ -1,0 +1,45 @@
+package com.skilldistillery.Bingo;
+
+public class CardSpot {
+
+	private int number;
+	private boolean marked;
+	
+	public CardSpot(){
+		
+	}
+	
+	
+	public CardSpot(int number, boolean marked) {
+		super();
+		this.number = number;
+		this.marked = marked;
+	}
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public boolean isMarked() {
+		return marked;
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(number);
+		if(marked){
+		builder.append("X");
+		}
+		else if(!marked){
+			builder.append("");
+		}
+		return builder.toString();
+	}
+	public void setMarked(boolean marked) {
+		this.marked = marked;
+	}
+	
+	
+	
+}

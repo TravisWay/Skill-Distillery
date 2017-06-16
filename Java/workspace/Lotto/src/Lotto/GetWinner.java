@@ -14,7 +14,6 @@ public class GetWinner {
 	Scanner input = new Scanner(System.in);	
 	Map<String, Integer> Input	= new HashMap<>();
 	
-	System.out.println("How many hoppers do you need");
 	
 	
 		
