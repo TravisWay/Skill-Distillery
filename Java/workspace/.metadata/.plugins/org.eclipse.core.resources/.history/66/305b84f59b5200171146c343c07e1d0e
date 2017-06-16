@@ -1,0 +1,28 @@
+package Lotto;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GetWinner {
+
+	
+	
+	public static void main(String[] args) {
+		
+	
+	String[] text = { "s1", "s2", "s3", "s4", "s5",
+			 "s6", "s6", "s7", "s8", "s9", "s10", "s11", "s12", "s13",
+			 "s14" };
+			 int[] numBalls = { 250, 199, 156, 119, 88, 63, 43, 28, 17, 11, 8, 7,
+			 6, 5};
+			
+			 DraftDriver nba = new DraftDriver();
+			 
+			 System.out.println(nba.Winner(text,numBalls));
+	
+			 
+			 
+	
+			 }
+	
+}

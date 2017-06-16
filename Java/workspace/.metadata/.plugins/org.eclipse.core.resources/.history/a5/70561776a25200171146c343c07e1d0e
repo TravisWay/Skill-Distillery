@@ -1,0 +1,70 @@
+package Lotto;
+
+import java.util.*;
+
+public class DraftDriver {
+	
+	BallFactory b1 = new BallFactory();
+	
+	List<Ball> BList = new ArrayList<>();
+	
+	
+	public DraftDriver(){
+			
+	}
+
+
+
+
+
+	public String Winner(Map<String, Integer> map){	
+
+//		 String[] text = { "s1", "s2", "s3", "s4", "s5",
+//		 "s6", "s6", "s7", "s8", "s9", "s10", "s11", "s12", "s13",
+//		 "s14" };
+//		 int[] numBalls = { 250, 199, 156, 119, 88, 63, 43, 28, 17, 11, 8, 7,
+//		 6, 5};
+//		
+		Iterator it = map.entrySet().iterator();
+		while (it.hasNext()) {
+		Map.Entry pair = (Map.Entry)it.next();
+		int number = (int)pair.getValue();
+		String value = (String)pair.getKey();
+		BList.addAll(b1.createBall(number, value);
+		it.remove(); 
+		 }
+		 Hopper AllBalls = new Hopper();
+		 AllBalls.shuffle(BList);
+		 Ball winner = BList.get(0);
+		 BList.remove(0);
+		 return winner.id;
+		 
+//		for (int i = 1; i < text; i++) {
+//			nbaBalls.addall(b1.createBall(Integer.toString(i)));
+//
+//		}
+//
+//		for (int i = 1; i < 26; i++) {
+//			nbaBalls2.add(b1.createBall(Integer.toString(i)));
+//		}
+
+
+
+//			for (int h = 0; h < 1; h++) {
+//				nba.shuffle(nbaBalls2);
+//				System.out.println("Red: " + nbaBalls2.get(0));
+
+				//for (int j = 0; j < 5; j++) {
+					
+			
+
+				
+
+			//}
+
+			// System.out.println(nbaBalls + "\n");
+	}		// System.out.println(nbaBalls.size());
+		
+}
+	
+
