@@ -10,7 +10,7 @@ public class AccessLogComparator implements Comparator<String> {
         visitors = v;
     }
 
-    public int compare(String key1, String key2) {
+	public int compare(String key1, String key2) {
         Integer firstVal = visitors.get(key1);
         Integer secondVal = visitors.get(key2);
 

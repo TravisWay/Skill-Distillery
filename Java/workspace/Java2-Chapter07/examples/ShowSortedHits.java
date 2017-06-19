@@ -13,11 +13,15 @@ public class ShowSortedHits {
     private Map<String, Integer> visitors;
 
     public ShowSortedHits() {
-        visitors = new HashMap<>();
+        
+    	
+    	visitors = new HashMap<>();
+    	
         populateMap();
         printSortedMap();
     }
-
+    
+    
     private void populateMap() {
         String line = null;
 
@@ -50,8 +54,26 @@ public class ShowSortedHits {
                 visitors.keySet());
 
         // Sort the keys according to their corresponding values
-        Comparator<String> comp = new AccessLogComparator(visitors);
-        Collections.sort(keysList, comp);
+        Comparator<String> comp = new Comparator<String>() {
+        	public int compare(String key1, String key2) {
+                Integer firstVal = visitors.get(key1);
+                Integer secondVal = visitors.get(key2);
+
+                int retval = secondVal.compareTo(firstVal);
+
+                if (retval != 0) {
+                    // sort by number of hits
+                    return retval;
+                }
+                else {
+                    // if hits are equal, sort by address
+                    return key1.compareTo(key2);
+                }
+
+                // shorthand syntax
+                // return (retval != 0)?retval:key1.compareTo(key2);
+            }};
+            Collections.sort(keysList, comp);
 
         // Print the key/value pairs based on ArrayList
         for (String key : keysList) {

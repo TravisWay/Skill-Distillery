@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;History/president.tsv&apos; to &apos;presidents.tsv&apos;" description="Rename resource &apos;president.tsv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="president.tsv" name="presidents.tsv" stamp="1497891015620" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;History/president.tsv&apos; to &apos;presidents.tsv&apos;" description="Rename resource &apos;president.tsv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="president.tsv" name="presidents.tsv" stamp="1497891015620" updateReferences="true"/>&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;History&apos;&#x0A;- Original project: &apos;History&apos;&#x0A;- Original element: &apos;com.skilldistillery.history.Anonymous.java&apos;" description="Delete element" element1="/src&lt;com.skilldistillery.history{Anonymous.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1497899927685" subPackages="false" version="1.0"/>
 </session>
