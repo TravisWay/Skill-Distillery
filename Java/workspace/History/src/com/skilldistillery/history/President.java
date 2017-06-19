@@ -2,7 +2,7 @@ package com.skilldistillery.history;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.time.format.DateTimeParseException;
+
 
 public class President implements Comparable<President> {
 	
