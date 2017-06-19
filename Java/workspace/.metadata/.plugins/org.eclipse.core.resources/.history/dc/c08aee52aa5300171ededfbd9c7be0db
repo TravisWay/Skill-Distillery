@@ -1,0 +1,23 @@
+package Casino;
+
+import Deck.*;
+import Player.*;
+
+public class Table {
+
+	private Deck deck = new Deck();
+	
+	public Table() {
+		super();
+		
+	}
+
+	public Deck newdeck(){	
+		deck.createDeck();
+		return deck;
+		
+	}
+
+}
+	
+

@@ -12,7 +12,7 @@ public class Deck {
 
         for (Rank r : Rank.values()) {
             for (Suit s : Suit.values()) {
-                deck.add(new Card(r, s));
+                deck.add(new Card(r.getValue(), s));
             }
         }
 
@@ -23,6 +23,7 @@ public class Deck {
         for (Card card : deck) {
             System.out.println(card);
         }
+        System.out.println(Rank.TWO.getValue());
     }
 
 }

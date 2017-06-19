@@ -1,0 +1,22 @@
+package Player;
+
+import java.util.List;
+
+import Deck.Card;
+
+public class User extends Player{
+
+	@Override
+	public Card take(List<Card> deck) {
+		// TODO Auto-generated method stub
+		
+		return Computer.deal(deck); 
+	}
+
+	@Override
+	public int stay() {
+		
+		return 0;
+	}
+
+}

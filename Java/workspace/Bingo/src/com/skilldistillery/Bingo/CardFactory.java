@@ -2,6 +2,8 @@ package com.skilldistillery.Bingo;
 
 import java.util.Arrays;
 
+import javax.imageio.ImageTypeSpecifier;
+
 public class CardFactory {
 
 	private CardSpot[][] newCard = new CardSpot[5][5];
@@ -18,7 +20,13 @@ public class CardFactory {
 			int multiplier = 15;
 			for (int i = 0; i < 5; i++) {
 				for (int j = 0; j < 5; j++) {
-					 newCard[j][i] =new CardSpot((int)Math.ceil((Math.random())*15)+(i*15),false);
+					int value = ((int)Math.ceil((Math.random())*15)+(i*15));
+					
+//					if(value == newCard[j][]) 
+//					
+//					newCard[j][i] =
+							 
+							 new CardSpot(value,false);
 					 }
 				
 			}

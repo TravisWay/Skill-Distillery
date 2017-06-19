@@ -1,0 +1,37 @@
+package Casino;
+
+import Deck.*;
+import Player.*;
+
+
+public class Table {
+
+	Deck deck = new Deck();
+	
+		public Table() {
+		super();
+		
+	}
+
+		deck.createDeck();
+		
+
+	
+	
+	
+	
+	}
+	
+
+
+}
+//		for (Card card : deck) {
+//        System.out.println(card);
+//      }
+//      Collections.shuffle(deck);
+//      for (Card card : deck) {
+//          System.out.println(card);
+//      }
+//	}
+	
+

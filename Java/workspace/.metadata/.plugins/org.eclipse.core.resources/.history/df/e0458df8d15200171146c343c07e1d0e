@@ -1,0 +1,6 @@
+package examples;
+
+public enum Rank {
+
+    2, 3
+}

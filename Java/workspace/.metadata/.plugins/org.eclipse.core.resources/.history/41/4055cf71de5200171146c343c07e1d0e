@@ -1,0 +1,59 @@
+package Player;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+
+import Deck.*;
+
+public class Computer extends Player {
+
+	public List<Card> shuffle(List<Card> toShuffle){
+		
+		Collections.shuffle(toShuffle);
+//		for (Card card : toShuffle) {
+//            System.out.println(card);
+//        }
+		return toShuffle;
+		
+		
+	}
+	
+	
+	public Card deal(List<Card> deck) {
+		int rand = (int) (Math.random()*52);
+		
+		
+		return deck.remove(rand);
+
+	}
+	
+	
+
+	@Override
+	public int hit(List<Card> deck) {
+
+		return 0;
+	}
+
+	@Override
+	public int stay() {
+
+		return 0;
+	}
+
+
+	@Override
+	public Card take(Card given) {
+		// TODO Auto-generated method stub
+		return Card;
+	}
+
+
+	@Override
+	public Card hit() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

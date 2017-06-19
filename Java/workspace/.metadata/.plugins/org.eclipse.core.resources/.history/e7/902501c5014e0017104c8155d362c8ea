@@ -1,8 +1,0 @@
-package Jets;
-
-public class pilots {
-	
-	private String Name;
-	
-	
-}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;History/president.tsv&apos; to &apos;presidents.tsv&apos;" description="Rename resource &apos;president.tsv&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="president.tsv" name="presidents.tsv" stamp="1497891015620" updateReferences="true"/>
+</session>

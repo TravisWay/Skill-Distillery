@@ -1,11 +1,12 @@
 package examples;
 
 public class Card {
-    private Rank rank;
+    private int value;
+	private Rank rank;
     private Suit suit;
 
-    public Card(Rank r, Suit s) {
-        rank = r;
+    public Card(int i, Suit s) {
+        value = i;
         suit = s;
     }
 
