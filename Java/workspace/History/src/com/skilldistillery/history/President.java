@@ -1,6 +1,12 @@
 package com.skilldistillery.history;
 
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeParseException;
+
 public class President implements Comparable<President> {
+	
+	
 	private int termNumber;
 	private String firstName;
 	private String middleName;
@@ -8,10 +14,15 @@ public class President implements Comparable<President> {
 	private int electionsWon;
 	private String whyLeftOffice;
 	private String party;
+	private LocalDate bterm;
+	private LocalDate eterm;
+	private Period length;
+	
 
-	public President(int termNumber, String firstName, String middleName, String lastName, int electionsWon,
+	public President(int termNumber, String firstName, String middleName, String lastName, LocalDate bterm, LocalDate eterm,int electionsWon,
 			String reasonLeftOffice, String party) {
 		super();
+		
 		this.termNumber = termNumber;
 		this.firstName = firstName;
 		this.middleName = middleName;
@@ -19,6 +30,28 @@ public class President implements Comparable<President> {
 		this.electionsWon = electionsWon;
 		this.whyLeftOffice = reasonLeftOffice;
 		this.party = party;
+		this.bterm = bterm;
+		this.eterm = eterm;
+		setLength();
+		
+		
+		
+	}
+
+	public LocalDate getBterm() {
+		return bterm;
+	}
+
+	public void setBterm(LocalDate bterm) {
+		this.bterm = bterm;
+	}
+
+	public LocalDate getEterm() {
+		return eterm;
+	}
+
+	public void setEterm(LocalDate eterm) {
+		this.eterm = eterm;
 	}
 
 	public int getTermNumber() {
@@ -76,7 +109,19 @@ public class President implements Comparable<President> {
 	public void setParty(String party) {
 		this.party = party;
 	}
-
+	public void setLength(){
+		if(eterm != null){
+		this.length =Period.between(bterm,eterm);
+		}
+		else{
+		this.length = Period.between(bterm, LocalDate.now());
+		}
+		
+	}
+	public Period getLength() {
+		return length;
+	}
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -91,6 +136,16 @@ public class President implements Comparable<President> {
 		builder.append(electionsWon);
 		builder.append(", whyLeftOffice=");
 		builder.append(whyLeftOffice);
+		builder.append(", Term start=");
+		builder.append(bterm);
+		builder.append(", Term end=");
+		builder.append(eterm);
+		builder.append(", Term length=");
+		builder.append(length);
+		
+		
+		
+		
 		return builder.toString();
 	}
 
