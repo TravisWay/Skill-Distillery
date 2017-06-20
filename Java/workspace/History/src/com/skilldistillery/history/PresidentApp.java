@@ -25,18 +25,14 @@ public class PresidentApp {
 	}
 
 	public void start() {
-		PresidentMatcher test = new PresidentMatcher() {
-			
-			@Override
-			public boolean matches(President pres, String string) {
-				// TODO Auto-generated method stub
-				return false;
-			}
-		};
 		
-		System.out.println(filter("(Whig)", test));
-		//this.printPresidents(this.getPresidents());
-		
+//		
+//		filter("(Whig)",(for(int i=0; i>presidents.size(); i++){
+//			PresidentMatcher(presidents.get(i),"(Whig)");
+//			
+//		}));
+//		//this.printPresidents(this.getPresidents());
+//		}
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
 		Collections.sort(sorted,new Comparator<President>(){

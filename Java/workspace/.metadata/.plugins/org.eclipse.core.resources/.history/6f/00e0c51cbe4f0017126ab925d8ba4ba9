@@ -1,9 +1,0 @@
-package Presidents;
-
-public class President {
-
-	public President() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
