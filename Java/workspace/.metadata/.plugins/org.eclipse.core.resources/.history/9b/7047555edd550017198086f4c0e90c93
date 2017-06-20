@@ -1,6 +1,5 @@
 package com.skilldistillery.history;
 
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -12,8 +11,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import com.skilldistillery.history.PresidentApp.PC;
 
-public class PresidentApp {
+public class PresidentAppLambda {
 	private static final String fileName = "presidents.tsv";
 	private List<President> presidents = new ArrayList<>();
 
@@ -101,7 +101,7 @@ public class PresidentApp {
 		
 
 
-	public PresidentApp() {
+	 public PresidentAppLambda() { 
 		this.loadPresidents(fileName);
 	}
 

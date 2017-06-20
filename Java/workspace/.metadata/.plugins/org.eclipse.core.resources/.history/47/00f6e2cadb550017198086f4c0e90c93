@@ -2,7 +2,7 @@ package examples;
 
 import java.util.List;
 
-public class PrintBigPlanets {
+public class PrintDistantPlanets {
   public static void main(String[] args) {
 //    class DiameterFilter implements PlanetSizer {
 //      public boolean isBigPlanet (Planet p) {

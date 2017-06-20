@@ -10,8 +10,8 @@
 	<item value="0" key="org.eclipse.jdt.uiformatter_page.white_space.java_view.inner"/>
 	<item value="11" key="org.eclipse.jdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
 	<list key="workingset_selection_history">
-		<item value="Projects"/>
 		<item value="Java2"/>
+		<item value="Projects"/>
 	</list>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>

@@ -3,7 +3,6 @@ package examples;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class PlanetUtilities {
 	public static List<Planet> getPlanets() {
@@ -19,10 +18,10 @@ public class PlanetUtilities {
 	}
 	
 	
-		  public static List<Planet> filterPlanets(List<Planet> list, Predicate<Planet> ps ) {
+		  public static List<Planet> filterPlanets(List<Planet> list, PlanetSizer ps) {
 		    List<Planet> tempList = new ArrayList<>();
 		    for (Planet planet : list) {
-		      if (ps.test(planet)) {
+		      if (ps.isBigPlanet(planet)) {
 		        tempList.add(planet);
 		      }
 		    }

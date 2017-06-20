@@ -1,6 +1,5 @@
 package com.skilldistillery.history;
 
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,9 +10,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.BiPredicate;
 
+import com.skilldistillery.history.PresidentApp.PC;
 
-public class PresidentApp {
+public class PresidentAppLambda {
 	private static final String fileName = "presidents.tsv";
 	private List<President> presidents = new ArrayList<>();
 
@@ -25,20 +26,19 @@ public class PresidentApp {
 	public void start() {
 		
 		
-		this.printPresidents(this.filter("Whig",new PresidentPartyMatcher()));
+		this.printPresidents(this.filter2("Democrat", new BiPredicate<President, String>(){@Override
+		public boolean test(President t, String u) {
+			// TODO Auto-generated method stub
+			return false;
+		} 
+		}));
 		//this.printPresidents(this.getPresidents());
 		
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
-		Collections.sort(sorted,new Comparator<President>(){
-			public int compare(President o1, President o2){
-			int rere;
-			rere = o1.getLastName().compareTo(o2.getLastName());
+		Comparator<President>test = (o1, o2)->o1.getLastName().compareTo(o2.getLastName());
+		Collections.sort(sorted,test);
 			
-		
-			return rere;
-		}
-
 			
 //		else{
 //			if(o1.getTermNumber()>o2.getTermNumber()){
@@ -55,7 +55,7 @@ public class PresidentApp {
 //		}
 		
 		
-	});
+	
 		for (President p : sorted) {
 			System.out.println(p);
 		}
@@ -101,7 +101,7 @@ public class PresidentApp {
 		
 
 
-	public PresidentApp() {
+	 public PresidentAppLambda() { 
 		this.loadPresidents(fileName);
 	}
 
@@ -145,6 +145,15 @@ public class PresidentApp {
 		List<President> filtered = new ArrayList<>();
 		for (President p : presidents) {
 			if (matcher.matches(p, string)) {
+				filtered.add(p);
+			}
+		}
+		return filtered;
+	}
+	public List<President> filter2(String string, BiPredicate<President, String> mine) {
+		List<President> filtered = new ArrayList<>();
+		for (President p : presidents) {
+			if (mine.test(p, string)) {
 				filtered.add(p);
 			}
 		}
