@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;examples.PrintBigPlanet.java&apos; to &apos;PrintBigPlanets.java&apos;&#x0A;- Original project: &apos;Java2-Chapter11&apos;&#x0A;- Original element: &apos;examples.PrintBigPlanet.java&apos;&#x0A;- Renamed element: &apos;examples.PrintBigPlanets.java&apos;" description="Rename compilation unit &apos;PrintBigPlanet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/&lt;examples{PrintBigPlanet.java" name="PrintBigPlanets.java" references="false" stamp="1497975865441" version="1.0"/>
+</session>

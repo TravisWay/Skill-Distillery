@@ -1,5 +1,6 @@
 package examples;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,4 +16,18 @@ public class PlanetUtilities {
 				new Planet("Uranus", 2_870_990_000L, 51_118), 
 				new Planet("Neptune", 4_504_000_000L, 49_532));
 	}
-}
+	
+	
+		  public static List<Planet> filterPlanets(List<Planet> list, PlanetSizer ps) {
+		    List<Planet> tempList = new ArrayList<>();
+		    for (Planet planet : list) {
+		      if (ps.isBigPlanet(planet)) {
+		        tempList.add(planet);
+		      }
+		    }
+		    return tempList;
+		  }
+	}
+	
+	
+
