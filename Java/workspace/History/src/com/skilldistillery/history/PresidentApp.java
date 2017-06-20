@@ -155,8 +155,8 @@ public class PresidentApp {
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
 		PC test = new PC();
-		Collections.sort(sorted, test);
-		// printPresidents(sorted);
+		Collections.sort(sorted, (o1,o2)->{return o1.getLastName().compareTo(o2.getLastName());});
+		 printPresidents(sorted);
 
 	}
 

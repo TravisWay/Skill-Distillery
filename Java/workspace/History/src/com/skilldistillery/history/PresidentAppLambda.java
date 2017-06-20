@@ -12,8 +12,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiPredicate;
 
-import com.skilldistillery.history.PresidentApp.PC;
-
 public class PresidentAppLambda {
 	private static final String fileName = "presidents.tsv";
 	private List<President> presidents = new ArrayList<>();
@@ -21,6 +19,11 @@ public class PresidentAppLambda {
 	public static void main(String[] args) {
 		PresidentAppLambda app = new PresidentAppLambda();
 		app.start();
+		
+		for (int i = 0; i < 10; ) {
+			i=i++;
+			System.out.println("hello "+ i);
+		}
 	}
 
 	public void start() {
@@ -32,7 +35,7 @@ public class PresidentAppLambda {
 			return false;
 		} 
 		}));
-		//this.printPresidents(this.getPresidents());
+		this.printPresidents(this.getPresidents());
 		
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
@@ -59,7 +62,7 @@ public class PresidentAppLambda {
 //		for (President p : sorted) {
 //			System.out.println(p);
 //		}
-	}
+	
 	
 	// SortedByPartyAndTerm();
 	// class PC implements Comparator<President>{
@@ -96,9 +99,9 @@ public class PresidentAppLambda {
 //	List<President> sorted = new ArrayList<>();sorted.addAll(presidents);
 //	PC test = new PC();Collections.sort(sorted,test);
 //
-//	printPresidents(sorted);
+	printPresidents(sorted);
 //		
-		
+}	
 
 
 	 public PresidentAppLambda() { 
@@ -150,10 +153,10 @@ public class PresidentAppLambda {
 		}
 		return filtered;
 	}
-	public List<President> filter2(String string, BiPredicate<President, String> mine) {
+	public List<President> filter2(String s, BiPredicate<President,String> mine) {
 		List<President> filtered = new ArrayList<>();
 		for (President p : presidents) {
-			if (mine.test(p, string)) {
+			if (mine.test(p, s)) {
 				filtered.add(p);
 			}
 		}
@@ -164,8 +167,8 @@ public class PresidentAppLambda {
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
 		PC test = new PC();
-		Collections.sort(sorted, test);
-		// printPresidents(sorted);
+		Collections.sort(sorted, (o1,o2)->{return o1.getLastName().compareTo(o2.getLastName());});
+		 printPresidents(sorted);
 
 	}
 
