@@ -19,7 +19,7 @@ public class PresidentAppLambda {
 	private List<President> presidents = new ArrayList<>();
 
 	public static void main(String[] args) {
-		PresidentApp app = new PresidentApp();
+		PresidentAppLambda app = new PresidentAppLambda();
 		app.start();
 	}
 
@@ -55,7 +55,7 @@ public class PresidentAppLambda {
 //		}
 		
 		
-//	
+	
 //		for (President p : sorted) {
 //			System.out.println(p);
 //		}

@@ -16,11 +16,11 @@ import java.util.List;
 public class PresidentApp {
 	private static final String fileName = "presidents.tsv";
 	private List<President> presidents = new ArrayList<>();
-
-	public static void main(String[] args) {
-		PresidentApp app = new PresidentApp();
-		app.start();
-	}
+//
+//	public static void main(String[] args) {
+//		PresidentApp app = new PresidentApp();
+//		app.start();
+//	}
 
 	public void start() {
 		
