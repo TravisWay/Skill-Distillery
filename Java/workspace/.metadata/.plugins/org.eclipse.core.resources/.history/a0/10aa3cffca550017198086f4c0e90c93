@@ -27,7 +27,7 @@ public class PresidentApp {
 	public void start() {
 		
 		
-		this.printPresidents(this.filter("Whig",new PresidentPartyMatcher()));
+		this.printPresidents(this.filter("(Whig)",new PresidentPartyMatcher()));
 		//this.printPresidents(this.getPresidents());
 		
 		List<President> sorted = new ArrayList<>();

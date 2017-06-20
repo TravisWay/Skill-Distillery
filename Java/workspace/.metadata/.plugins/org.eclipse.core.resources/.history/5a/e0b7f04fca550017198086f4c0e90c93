@@ -18,7 +18,7 @@ public class President implements Comparable<President> {
 	private LocalDate eterm;
 	private Period length;
 	
-	
+
 	public President(int termNumber, String firstName, String middleName, String lastName, LocalDate bterm, LocalDate eterm,int electionsWon,
 			String reasonLeftOffice, String party) {
 		super();

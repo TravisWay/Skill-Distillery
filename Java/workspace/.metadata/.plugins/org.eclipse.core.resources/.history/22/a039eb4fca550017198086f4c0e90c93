@@ -26,10 +26,13 @@ public class PresidentApp {
 
 	public void start() {
 		
-		
-		this.printPresidents(this.filter("Whig",new PresidentPartyMatcher()));
-		//this.printPresidents(this.getPresidents());
-		
+//		
+//		filter("(Whig)",(for(int i=0; i>presidents.size(); i++){
+//			PresidentMatcher(presidents.get(i),"(Whig)");
+//			
+//		}));
+//		//this.printPresidents(this.getPresidents());
+//		}
 		List<President> sorted = new ArrayList<>();
 		sorted.addAll(presidents);
 		Collections.sort(sorted,new Comparator<President>(){
@@ -137,11 +140,11 @@ public class PresidentApp {
 		return this.presidents;
 	}
 
-	public void printPresidents(List<President> pres) {
-		for (President p : pres) {
-			System.out.println(p);
-		}
-	}
+//	public void printPresidents(List<President> pres) {
+//		for (President p : pres) {
+//			System.out.println(p);
+//		}
+//	}
 
 	public List<President> filter(String string, PresidentMatcher matcher) {
 		List<President> filtered = new ArrayList<>();
