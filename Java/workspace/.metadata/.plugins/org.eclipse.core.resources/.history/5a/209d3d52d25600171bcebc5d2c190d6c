@@ -1,0 +1,17 @@
+package caesar;
+
+import java.util.concurrent.Callable;
+
+public class CaesarCipher implements Callable<String> {
+	int shift;
+	String msg = "P SLHYULK AV WYVNYHT HA AOL ZRPSS KPZAPSSLYF";
+	CaesarCipherDecrypter decrypter = new CaesarCipherDecrypter(msg,shift);
+
+	@Override
+	public String call() throws Exception {
+		String done = decrypter.decryptText(msg);
+		return done;
+	}
+
+	
+}

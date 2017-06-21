@@ -1,0 +1,13 @@
+package caesar;
+
+public class CaesarCipher {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CaesarCipherDecrypter test = new CaesarCipherDecrypter("P SLHYULK AV WYVNYHT HA AOL ZRPSS KPZAPSSLYF",5);
+		System.out.println(test.getDecryptedMessage());
+		
+	}
+
+}

@@ -28,7 +28,7 @@ public class States {
           System.out.println();
       }
     }
-  }
+ }
 
   private static void removeTerritories(List<String> states) {
     new Thread(new Runnable() {
