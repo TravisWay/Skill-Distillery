@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadFile extends Thread {
+public class ReadFile implements Runnable {
   private int id;
   private String filename;
 
@@ -31,6 +31,7 @@ public class ReadFile extends Thread {
       System.err.println(e.getMessage());
     }
   }
+
   
   public static void main(String[] args) {
     ReadFile[] readers = new ReadFile[3];

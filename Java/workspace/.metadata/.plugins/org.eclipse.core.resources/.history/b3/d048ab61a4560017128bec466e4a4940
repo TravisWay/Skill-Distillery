@@ -1,0 +1,32 @@
+package Labs;
+
+import java.io.BufferedReader;
+
+public class ReadFile extends Thread{
+	private int arg;
+	private String filename;
+	
+	public ReadFile(int arg, String filename) {
+		super();
+		this.arg = arg;
+		this.filename = filename;
+	}
+	
+		public void run() {
+			 String thisLine = null;
+			try {
+			      
+		         // open input stream test.txt for reading purpose.
+		         BufferedReader br = new BufferedReader("readthis.txt");
+		         
+		         while ((thisLine = br.readLine()) != null) {
+		            System.out.println(thisLine);
+		         }       
+		      } catch(Exception e) {
+		         e.printStackTrace();
+		      }
+		   }
+		}
+	}
+	
+
