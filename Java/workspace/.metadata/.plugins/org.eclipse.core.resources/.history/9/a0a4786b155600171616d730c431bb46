@@ -20,7 +20,10 @@ public class PresidentAppLambda {
 		PresidentAppLambda app = new PresidentAppLambda();
 		app.start();
 		
-		
+		for (int i = 0; i < 10; ) {
+			i=i++;
+			System.out.println("hello "+ i);
+		}
 	}
 
 	public void start() {
