@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
-<fullyQualifiedTypeName name="javax.net.ssl.SSLEngineResult.Status"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
-<fullyQualifiedTypeName name="javax.swing.text.Highlighter.Highlight"/>
-<fullyQualifiedTypeName name="Player.Player"/>
-<fullyQualifiedTypeName name="org.w3c.dom.css.ElementCSSInlineStyle"/>
-<fullyQualifiedTypeName name="java.time.Year"/>
-<fullyQualifiedTypeName name="java.security.GuardedObject"/>
-<fullyQualifiedTypeName name="Casino.Play"/>
-<fullyQualifiedTypeName name="Player.User"/>
-<fullyQualifiedTypeName name="javax.xml.bind.SchemaOutputResolver"/>
-<fullyQualifiedTypeName name="Deck.Deck"/>
-<fullyQualifiedTypeName name="Deck.Card"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
@@ -21,8 +8,6 @@
 <fullyQualifiedTypeName name="java.time.format.DateTimeParseException"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="javax.xml.bind.helpers.ParseConversionEventImpl"/>
 <fullyQualifiedTypeName name="java.awt.image.PackedColorModel"/>
 <fullyQualifiedTypeName name="PC"/>
@@ -32,16 +17,13 @@
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.fastinfoset.algorithm.BooleanEncodingAlgorithm"/>
 <fullyQualifiedTypeName name="java.lang.Boolean"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="examples.PlanetSizer"/>
 <fullyQualifiedTypeName name="com.skilldistillery.history.PresidentAppLambda"/>
 <fullyQualifiedTypeName name="com.skilldistillery.history.President"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.sun.corba.se.impl.orbutil.ObjectStreamClass_1_3_1"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 <fullyQualifiedTypeName name="java.util.function.BiPredicate"/>
 <fullyQualifiedTypeName name="examples.Planet"/>
@@ -54,10 +36,28 @@
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CopyOnWriteArrayList"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
 <fullyQualifiedTypeName name="examples.Race"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.awt.datatransfer.StringSelection"/>
+<fullyQualifiedTypeName name="caesar.CaesarCipherDecrypter"/>
+<fullyQualifiedTypeName name="caesar.CaesarCipher"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Future"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
