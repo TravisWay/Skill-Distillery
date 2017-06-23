@@ -54,17 +54,17 @@ public class test {
 		textField.setColumns(10);
 		
 		JButton btnNewButton = new JButton("Login");
-		btnNewButton.addActionListener(new ActionListener() {
-  			public void actionPerformed(ActionEvent e) {
- -				now = Double.parseDouble(textField.getText());
- -				textField.setText("");
- -				
- +				
- -				textField.setText(answer);
- +				textField_4.setText(answer);
-  				
-  			}
-  		});
+//		btnNewButton.addActionListener(new ActionListener() {
+//  			public void actionPerformed(ActionEvent e) {
+// -				now = Double.parseDouble(textField.getText());
+// -				textField.setText("");
+// -				
+// +				
+// -				textField.setText(answer);
+// +				textField_4.setText(answer);
+//  				
+//  			}
+//  		});
 		btnNewButton.setBounds(47, 119, 117, 29);
 		frame.getContentPane().add(btnNewButton);
 		

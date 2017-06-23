@@ -39,7 +39,7 @@ public class ReadFile implements Runnable {
     for (int i = 0; i < readers.length; i++) {
       // read source code file
       readers[i] = new ReadFile("solutions/ReadFile.java", i);
-      readers[i].start();
+      readers[i].run();
     }
   }  
 }
