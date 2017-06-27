@@ -1,0 +1,10 @@
+package Initialization;
+
+public class SuperMan {
+
+	static String superStatic;
+	
+	static{
+		superStatic= "set in static initalizer";
+	}
+}
