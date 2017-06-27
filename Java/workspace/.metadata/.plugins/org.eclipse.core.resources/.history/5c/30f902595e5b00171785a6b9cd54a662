@@ -8,7 +8,7 @@ public class TestInitialization {
 //		System.out.println("Starting main");
 //		String string = SuperMan.superStatic;
 //		SuperMan clark = new SuperMan();
-		Me me = new Me();
+		Me me = new Me(5);
 		
 		System.out.println("End of main");
 		

@@ -1,0 +1,9 @@
+package Initialization;
+
+public class Me extends SuperMan {
+
+	public Me(int x) {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
