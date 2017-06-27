@@ -1,0 +1,23 @@
+package pairer;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Pair {
+
+	Scanner input = new Scanner(System.in);
+	List<String> students = new ArrayList<>();
+	public static void main(String[] args) {
+		
+	}
+	public void addStudents(){
+		System.out.println("Enter the students you have followed by a space");
+		
+		String [] studentList = input.nextLine().split(" ");
+		for (String string : studentList) {
+			students.add(string);
+		}
+		
+	}
+}
