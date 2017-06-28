@@ -1,17 +1,20 @@
 package Initialization;
 
-import java.awt.event.MouseWheelEvent;
-
-public class TestInitialization {
-
-	public static void main(String[] args) {
-//		System.out.println("Starting main");
-//		String string = SuperMan.superStatic;
-//		SuperMan clark = new SuperMan();
-		Me me = new Me();
-		
-		System.out.println("End of main");
-		
-	}
-	
+class StaticTest{
+    
+    void m1(){
+        StaticTest.m2();  // 1
+        m4();             // 2
+        StaticTest.m3();  // 3
+    }
+    
+    static void m2(){ }  // 4
+    
+    void m3(){
+        m1();            // 5
+        m2();            // 6
+        StaticTest.m1(); // 7
+    }
+    
+    static void m4(){ }
 }
