@@ -1,5 +1,0 @@
-package Initialization;
-
-public class Me extends SuperMan {
-
-}
