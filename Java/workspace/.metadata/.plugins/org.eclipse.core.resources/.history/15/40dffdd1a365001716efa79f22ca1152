@@ -1,0 +1,19 @@
+package data;
+
+import java.util.List;
+
+public class ProductDaoMemoryImpl implements ProductDao {
+
+	@Override
+	public product getProduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

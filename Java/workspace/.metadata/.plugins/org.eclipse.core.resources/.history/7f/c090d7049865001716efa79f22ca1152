@@ -1,0 +1,30 @@
+package web;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CartServlet extends HttpServlet {
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String prodIdString = req.getParameter("ID");
+		int prodId = Integer.parseInt(prodIdString);
+		String outputText = "You chose product ID "+ prodId;
+		
+		PrintWriter pw = resp.getWriter();
+		pw.println("<html>");
+		pw.println("<link rel='stylesheet' href='Styles.css'>");
+		pw.println("<head><title>Hello World</title></head>");
+		pw.println("  <body>" + outputText + "</body>");
+		pw.println("  <h4>" + "I said "+ outputText + "</h4>");
+		pw.println("  <h1>" + "I said "+ outputText +". Are you deaf?"+ "</h1>");
+		pw.println("</html>");
+		pw.close();
+		
+	}
+}

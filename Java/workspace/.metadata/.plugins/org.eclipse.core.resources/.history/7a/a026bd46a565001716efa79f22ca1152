@@ -1,0 +1,32 @@
+package data;
+
+import java.security.KeyStore.PrivateKeyEntry;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class ProductDaoMemoryImpl implements ProductDao {
+ Map<Integer, product> inventory = new HashMap<>();
+	
+	@Override
+	public product getproduct(int id) {
+		return inventory.get(id);
+	}
+
+	@Override
+	public List<product> getAllproducts() {
+		return (List<product>)inventory.values();
+	}
+	
+	private void loadProducts(){
+		inventory.put(1,new product(1, "Apple", 1.09));
+		inventory.put(2,new product(2, "Pear", 1.10));
+		inventory.put(3,new product(3, "Banana", 1.20));
+		inventory.put(4,new product(4, "Giraffe", 10.00));
+		inventory.put(5,new product(5, "Frog", 12.00));
+		inventory.put(6,new product(6, "Maserati", 100000.00));
+		inventory.put(7,new product(7, "fuji", .50));
+		inventory.put(8,new product(8, "Swift kick to the face", 0.00));
+		
+	}
+}

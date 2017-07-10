@@ -4,11 +4,21 @@ public class Stock {
 	private String symbol;
 	private String name;
 	private double price;
+	private double high;
 	
-	public Stock(String symbol, String name, double price) {
+	public Stock(String symbol, String name, double price, double high) {
 		this.symbol = symbol;
 		this.name = name;
 		this.price = price;
+		this.high = high;
+	}
+
+	public double getHigh() {
+		return high;
+	}
+
+	public void setHigh(double high) {
+		this.high = high;
 	}
 
 	public String getSymbol() {

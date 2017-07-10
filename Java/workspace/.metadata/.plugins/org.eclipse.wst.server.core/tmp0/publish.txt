@@ -1,4 +1,5 @@
 #Tomcat publish data
-#Mon Jul 10 10:40:13 MDT 2017
+#Mon Jul 10 14:26:44 MDT 2017
+org.eclipse.jst.jee.server\:ShoppingCart=/Users/travisway/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/ShoppingCart
 org.eclipse.jst.jee.server\:HelloWorld=/Users/travisway/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/HelloWorld
 org.eclipse.jst.jee.server\:Stocks=/Users/travisway/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/Stocks

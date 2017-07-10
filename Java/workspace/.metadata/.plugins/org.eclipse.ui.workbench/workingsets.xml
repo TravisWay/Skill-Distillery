@@ -53,6 +53,7 @@
 <item elementID="=Stocks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=StocksWithJSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=StocksWithSessions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ShoppingCart" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496419245003_0" label="Window Working Set" name="Aggregate for window 1496419245003"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698007371_6" label="Multiple Working Sets" name="Aggregate:Java1:Java2:OCPPrep:Projects:Quizzes:">

@@ -1,0 +1,55 @@
+package web;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import data.ProductDao;
+import data.ProductDaoMemoryImpl;
+import data.product;
+
+public class CartServlet extends HttpServlet {
+	ProductDao dao;
+	List<product> cart= new ArrayList<>();
+	
+	@Override
+	public void init() throws ServletException {
+		
+		dao = new ProductDaoMemoryImpl();
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String prodIdString = req.getParameter("ID");
+		int prodId = Integer.parseInt(prodIdString);
+		product prod = dao.getproduct(prodId);
+		if(prod != null){
+			cart.add(prod);
+		}
+		
+		String outputText = "You chose "+ prod.getName();
+		outputText +="<hr> Your cart: <br><ul>";
+		for (product product : cart) {
+			outputText+="<li>" +product.getName() +"(" + product.getPrice()+ ")"+ "</li>";
+		}
+		outputText +="</ul>";
+		
+		PrintWriter pw = resp.getWriter();
+		pw.println("<html>");
+		pw.println("<link rel='stylesheet' href='Styles.css'>");
+		pw.println("<head><title>Yo Shit</title></head>");
+		pw.println("  <body>" + outputText + "</body>");
+		pw.println("<a href='http://localhost:8080/ShoppingCart/'>Add more items</a>");
+		
+		pw.println("</html>");
+		pw.close();
+		
+		
+	}
+}

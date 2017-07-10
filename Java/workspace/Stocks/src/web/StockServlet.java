@@ -22,13 +22,17 @@ public class StockServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String symbol = req.getParameter("symbol");
 		double amount = stockDAO.getPrice(symbol);
-
+		String name= stockDAO.getName(symbol);
+		double high = stockDAO.getHigh(symbol);
+		
 		PrintWriter pw = resp.getWriter();
 		pw.println("<html>");
 		pw.println("<head><title>Stocks</title></head>");
 		pw.print("<body>");
 		if (amount != -1) {
-			pw.printf("<p>%s = %.2f</p>", symbol, amount);
+			pw.printf("<p>%s = %.2f</p>", name, amount);
+			pw.printf("<p>High is </p>", high);
+			
 		}
 		else {
 			pw.println("<p>Invalid Symbol</p>");

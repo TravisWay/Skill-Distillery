@@ -7,5 +7,6 @@ public interface StockDAO {
 	public double getPrice(String symbol);
 	public String getName(String symbol);
 	public String getSymbol(String name);
+	public double getHigh(String symbol);
 	public List<Stock> getAllStocks();
 }
