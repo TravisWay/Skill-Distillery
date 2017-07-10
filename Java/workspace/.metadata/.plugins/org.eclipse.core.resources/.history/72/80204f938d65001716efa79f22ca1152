@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form</title>
+	<link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+	<form action="SayHello" method="POST">
+		First<input type="text" name="nm" /> 
+		Last<input type="text" name="nm2" /> 
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

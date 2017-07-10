@@ -48,7 +48,28 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498159730538_6" label="OCPPrep" name="OCPPrep">
 <item elementID="=TestPrep" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698087370_7" label="JavaWeb" name="JavaWeb">
+<item elementID="=HelloWorld" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Stocks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=StocksWithJSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=StocksWithSessions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496419245003_0" label="Window Working Set" name="Aggregate for window 1496419245003"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698007371_6" label="Multiple Working Sets" name="Aggregate:Java1:Java2:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698144528_9" label="Multiple Working Sets" name="Aggregate:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
 <mruList name="Java2"/>
 <mruList name="Java1"/>
 </workingSetManager>
