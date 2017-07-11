@@ -9,6 +9,7 @@
 <title>Yo Shit</title>
 </head>
 <body>
+	
 	<form action="addItem.do" method="POST">
 		<select name="productId">
 			<c:forEach var="product" items="${inventory}">

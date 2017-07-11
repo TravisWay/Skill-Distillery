@@ -1,0 +1,64 @@
+package web;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import data.ProductDao;
+import data.ProductDaoFileImpl;
+import data.product;
+
+public class CartServlet extends HttpServlet {
+	ProductDao dao;
+//	List<product> cart= new ArrayList<>();
+	
+	@Override
+	public void init() throws ServletException {
+		
+//		dao = new ProductDaoMemoryImpl();
+	dao = new ProductDaoFileImpl(this.getServletContext());
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		product prod = null;
+		String prodIdString = req.getParameter("productId");
+		
+		List<product> cart;
+		HttpSession session = req.getSession();
+		cart = (List<product>)(session.getAttribute("cart"));
+		if ( cart == null) {
+			// first time
+			cart = new ArrayList<>();
+			session.setAttribute("cart", cart);
+		}
+		
+		
+		if(prodIdString !=null){
+		int prodId = Integer.parseInt(prodIdString);
+		prod = dao.getproduct(prodId);
+		if(prod != null){
+			cart.add(prod);
+		}
+		}
+		req.setAttribute("product", prod);
+		req.setAttribute("inventory", dao.getAllproducts());
+		req.setAttribute("cart", cart);
+		System.out.println(cart);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/cart.jsp").forward(req, resp);
+		
+	}
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		this.doPost(req, resp);
+	}
+	
+}
