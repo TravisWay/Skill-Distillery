@@ -41,6 +41,7 @@ public class PullBalls {
 		for (int i = 0; i < high; i++) {
 			Ball b1 = (Ball) ballFac.createBall(i);
 			balllist.add(b1);
+			System.out.println(b1.getId());
 
 		}
 		Collections.shuffle(balllist);
@@ -49,6 +50,8 @@ public class PullBalls {
 			Input.add(winner);
 
 		}
+		
+		System.out.println(Input);
 	}
 
 	public PullBalls(int balls, int high) {

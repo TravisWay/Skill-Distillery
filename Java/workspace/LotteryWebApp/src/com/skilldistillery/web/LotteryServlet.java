@@ -15,13 +15,14 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 	String numballs = req.getParameter("numBalls");
 	int balls = Integer.parseInt(numballs);
 	String highest = req.getParameter("maxNum");
-	int high = Integer.parseInt(numballs);
+	int high = Integer.parseInt(highest);
 	PullBalls test = new PullBalls(balls,high);
 	
 	test.setInput();
 	List <Integer> ballsy =test.getInput();
+	System.out.println(ballsy);
 	
-	req.setAttribute("balls", ballsy);
+	req.setAttribute("ballsy", ballsy);
 	req.getRequestDispatcher("/results.jsp").forward(req, resp);
 	
 	}

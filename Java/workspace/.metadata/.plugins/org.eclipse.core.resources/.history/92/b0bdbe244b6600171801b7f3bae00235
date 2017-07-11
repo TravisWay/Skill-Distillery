@@ -1,0 +1,29 @@
+package data;
+
+import java.util.List;
+
+public class ProductDaoFileImpl implements ProductDao {
+
+	@Override
+	public product getproduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<product> getAllproducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public ProductDaoFileImpl() {
+		// TODO Auto-generated constructor stub
+	
+		
+	}
+	
+	private void loadProductsFromFile(String fileName){
+		
+	}
+
+}

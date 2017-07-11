@@ -1,0 +1,8 @@
+inventory.put(1,new product(1, "Apple", 1.09));
+		1, "Pear", 1.10
+		2, "Banana", 1.20
+		3, "Giraffe", 10.00
+		4, "Frog", 12.00
+		5, "Maserati", 100000.00
+		6, "fuji", .50
+	    7, "Swift kick to the face", 0.00
