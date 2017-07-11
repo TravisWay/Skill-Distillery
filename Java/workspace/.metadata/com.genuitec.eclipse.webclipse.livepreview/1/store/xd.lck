@@ -1,4 +1,4 @@
-Private property of Exodus: 980@Traviss-MacBook-Pro.local
+Private property of Exodus: 523@Traviss-MacBook-Pro.local
 
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:100)
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:53)
@@ -13,9 +13,8 @@ jetbrains.exodus.env.Environments.newInstance(Environments.java:47)
 com.genuitec.eclipse.webclipse.livepreview.common.LPDeploymentDB.<init>(LPDeploymentDB.java:27)
 com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.getDBFor(LPMappingService.java:82)
 com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.newReadWriteTransactionFor(LPMappingService.java:66)
-com.genuitec.eclipse.webclipse.livepreview.common.HTMLInjector.generateStream(HTMLInjector.java:63)
-com.genuitec.eclipse.webclipse.livepreview.deploy.InjectHTMLIDsFlatFile.injectHTMLFile(InjectHTMLIDsFlatFile.java:81)
-com.genuitec.eclipse.webclipse.livepreview.deploy.InjectHTMLIDsFlatFile.getAdapter(InjectHTMLIDsFlatFile.java:55)
+com.genuitec.eclipse.webclipse.livepreview.deploy.InjectCSSIDFlatFile.injectCSSFile(InjectCSSIDFlatFile.java:94)
+com.genuitec.eclipse.webclipse.livepreview.deploy.InjectCSSIDFlatFile.getAdapter(InjectCSSIDFlatFile.java:64)
 org.eclipse.wst.web.internal.deployables.FlatComponentDeployable$ComponentModuleResource.getAdapter(FlatComponentDeployable.java:382)
 org.eclipse.wst.server.core.util.PublishHelper.publishSmart(PublishHelper.java:330)
 org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishDir(TomcatServerBehaviour.java:348)

@@ -6,3 +6,5 @@ overriddenByCSS=,angular2ExpressionBorder,angular2DirectiveName,angular2Expressi
 predarkestdark.angular2DirectiveName=\#F7C517 | null | false | null | null | null
 predarkestdark.angular2Expression=\#D4D4D4 | \#313100 | false | null | null | null
 predarkestdark.angular2ExpressionBorder=\#F7C517 | null | false | null | null | null
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

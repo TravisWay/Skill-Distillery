@@ -1048,3 +1048,315 @@
 2017-07-10 14:26:42,982 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/ShoppingCart/src/main/resources
 2017-07-10 14:26:42,984 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-07-10 14:26:42,984 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/ShoppingCart/src/test/resources
+2017-07-10 15:43:56,284 [Worker-160] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/4/store
+2017-07-10 15:45:55,974 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:45:55,975 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/main/resources
+2017-07-10 15:45:55,977 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:45:55,977 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/test/resources
+2017-07-10 15:46:12,177 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:46:12,177 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/main/resources
+2017-07-10 15:46:12,178 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:46:12,179 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/test/resources
+2017-07-10 15:50:40,762 [Worker-161] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LotteryWebApp:LotteryWebApp:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/LotteryWebApp/pom.xml.
+2017-07-10 15:50:40,916 [Worker-161] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LotteryWebApp/src
+2017-07-10 15:50:40,918 [Worker-161] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /LotteryWebApp/src/test/java because it overlaps with /LotteryWebApp/src
+2017-07-10 15:50:41,326 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:50:41,327 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:50:41,328 [Worker-161] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-10 15:50:41,328 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:50:41,329 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 15:50:41,935 [Worker-161] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LotteryWebApp:LotteryWebApp:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/LotteryWebApp/pom.xml.
+2017-07-10 15:50:42,667 [Worker-161] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LotteryWebApp/src
+2017-07-10 15:50:42,668 [Worker-161] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /LotteryWebApp/src/test/java because it overlaps with /LotteryWebApp/src
+2017-07-10 15:50:42,809 [Worker-161] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for LotteryWebApp
+2017-07-10 15:50:42,834 [Worker-161] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-10 15:50:42,982 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:50:42,982 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:50:42,983 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:50:42,986 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 15:50:42,987 [Worker-163] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LotteryWebApp
+2017-07-10 15:50:42,987 [Worker-163] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LotteryWebApp
+2017-07-10 15:50:42,992 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:51:51,187 [Worker-164] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LotteryWebApp:LotteryWebApp:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/LotteryWebApp/pom.xml.
+2017-07-10 15:51:51,717 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:51:51,718 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:51:51,719 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:51:51,720 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 15:51:51,720 [Worker-164] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LotteryWebApp
+2017-07-10 15:51:51,720 [Worker-164] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LotteryWebApp
+2017-07-10 15:51:51,723 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:53:32,606 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:53:32,606 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:53:32,607 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:53:32,610 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 15:58:27,444 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:58:27,445 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:58:27,447 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:58:27,448 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 15:59:33,662 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:59:33,663 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 15:59:33,664 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 15:59:33,664 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:04:26,696 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:04:26,697 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:04:26,698 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:04:26,700 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:04:27,779 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:04:27,780 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:04:27,780 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:04:27,783 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:09:51,379 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:09:51,380 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:09:51,381 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:09:51,382 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:10:15,086 [Worker-167] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/5/store
+2017-07-10 16:10:39,897 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:10:39,897 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:10:39,898 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:10:39,899 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:15:07,543 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:15:07,544 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:15:07,546 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:15:07,547 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:15:45,009 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:15:45,010 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:15:45,012 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:15:45,012 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:16:08,044 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:16:08,045 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:16:08,046 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:16:08,049 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:21:38,158 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:21:38,158 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:21:38,161 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:21:38,161 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:24:43,483 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:24:43,483 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:24:43,484 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:24:43,487 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:25:56,207 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:25:56,207 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:25:56,209 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:25:56,209 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 16:42:57,129 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:42:57,130 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 16:42:57,131 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 16:42:57,132 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:15:27,735 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:15:27,736 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:15:27,737 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:15:27,738 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:16:07,476 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:16:07,476 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:16:07,477 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:16:07,478 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:17:37,219 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:37,220 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:17:37,222 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:37,222 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:17:44,543 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:44,544 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:17:44,545 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:44,547 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:17:50,214 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:50,215 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:17:50,216 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:17:50,218 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:18:04,312 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:18:04,312 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:18:04,318 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:18:04,319 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:20:44,807 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:44,823 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/HelloWorld/src/main/resources
+2017-07-10 17:20:44,827 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:44,828 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/HelloWorld/src/test/resources
+2017-07-10 17:20:46,672 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:46,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:20:46,677 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:46,678 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:20:47,776 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,776 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/ShoppingCart/src/main/resources
+2017-07-10 17:20:47,779 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,781 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/ShoppingCart/src/test/resources
+2017-07-10 17:20:47,866 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,867 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/main/resources
+2017-07-10 17:20:47,869 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,870 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Stocks/src/test/resources
+2017-07-10 17:20:47,932 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,933 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithJSP/src/main/resources
+2017-07-10 17:20:47,936 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:47,937 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithJSP/src/test/resources
+2017-07-10 17:20:48,004 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:48,004 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithSessions/src/main/resources
+2017-07-10 17:20:48,006 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:48,007 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithSessions/src/test/resources
+2017-07-10 17:20:49,143 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:49,144 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithJSP/src/main/resources
+2017-07-10 17:20:49,145 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:49,147 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithJSP/src/test/resources
+2017-07-10 17:20:49,162 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:49,163 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithSessions/src/main/resources
+2017-07-10 17:20:49,167 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:49,169 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/StocksWithSessions/src/test/resources
+2017-07-10 17:20:57,300 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:57,300 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/HelloWorld/src/main/resources
+2017-07-10 17:20:57,302 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:20:57,303 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/HelloWorld/src/test/resources
+2017-07-10 17:21:06,513 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/0/store
+2017-07-10 17:21:11,841 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/1/store
+2017-07-10 17:21:17,254 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/2/store
+2017-07-10 17:21:22,305 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/3/store
+2017-07-10 17:21:32,309 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/4/store
+2017-07-10 17:21:37,405 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/5/store
+2017-07-10 17:22:45,603 [Worker-1] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/6/store
+2017-07-10 17:27:47,144 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:27:47,145 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:27:47,148 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:27:47,149 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:32:26,769 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:32:26,770 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:32:26,772 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:32:26,774 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:56:47,817 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:56:47,818 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:56:47,820 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:56:47,822 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:57:41,603 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:57:41,604 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:57:41,606 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:57:41,607 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 17:58:04,842 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:58:04,843 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 17:58:04,845 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 17:58:04,846 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:01:11,958 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:01:11,959 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:01:11,961 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:01:11,962 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:03:09,560 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:03:09,561 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:03:09,563 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:03:09,564 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:05:09,320 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:05:09,322 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:05:09,324 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:05:09,325 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:08:40,993 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:08:40,994 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:08:40,996 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:08:40,997 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:09:36,975 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:09:36,976 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:09:36,979 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:09:36,980 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:10:14,262 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:10:14,262 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:10:14,264 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:10:14,267 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:10:26,648 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:10:26,649 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:10:26,651 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:10:26,653 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:11:25,800 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:11:25,801 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:11:25,802 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:11:25,804 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:15:32,745 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:15:32,746 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:15:32,748 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:15:32,749 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:16:24,590 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:16:24,591 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:16:24,593 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:16:24,595 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:16:51,028 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:16:51,029 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:16:51,033 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:16:51,035 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:17:20,712 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:17:20,713 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:17:20,714 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:17:20,716 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:17:53,276 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:17:53,277 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:17:53,284 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:17:53,286 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:18:16,266 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:18:16,266 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:18:16,269 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:18:16,270 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:19:13,279 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:19:13,280 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:19:13,282 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:19:13,285 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:20:03,467 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:20:03,468 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:20:03,471 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:20:03,472 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:20:27,341 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:20:27,342 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:20:27,344 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:20:27,346 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:21:45,877 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:21:45,878 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:21:45,880 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:21:45,881 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-10 18:21:55,580 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:21:55,583 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-10 18:21:55,585 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-10 18:21:55,593 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:21:13,543 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:21:13,560 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:21:13,564 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:21:13,565 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:21:49,887 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/0/store
+2017-07-11 08:21:55,021 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/1/store
+2017-07-11 08:22:00,284 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/2/store
+2017-07-11 08:22:05,325 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/3/store
+2017-07-11 08:22:10,362 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/4/store
+2017-07-11 08:22:15,481 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/5/store
+2017-07-11 08:22:20,556 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: /Users/travisway/SD/Java/workspace/.metadata/com.genuitec.eclipse.webclipse.livepreview/6/store
+2017-07-11 08:33:40,427 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:33:40,428 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:33:40,433 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:33:40,434 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:35:19,083 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:35:19,085 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:35:19,087 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:35:19,088 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:35:41,681 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:35:41,684 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:35:41,686 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:35:41,687 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:36:28,500 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:36:28,501 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:36:28,504 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:36:28,505 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:39:10,068 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:10,069 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:39:10,071 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:10,072 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:39:42,034 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:42,036 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:39:42,039 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:42,040 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:39:57,522 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:57,523 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:39:57,527 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:39:57,528 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:49:09,446 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:09,447 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:49:09,449 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:09,450 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:49:18,770 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:18,771 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:49:18,776 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:18,777 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:49:33,709 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:33,710 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:49:33,712 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:33,713 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources
+2017-07-11 08:49:40,459 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:40,459 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/main/resources
+2017-07-11 08:49:40,461 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 08:49:40,463 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LotteryWebApp/src/test/resources

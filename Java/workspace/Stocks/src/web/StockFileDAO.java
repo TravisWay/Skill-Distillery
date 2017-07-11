@@ -30,7 +30,7 @@ public class StockFileDAO implements StockDAO {
 				String symbol = tokens[0];
 				String name = tokens[1];
 				double price = Double.parseDouble(tokens[2]);
-				stocks.add(new Stock(symbol, name, price));
+				stocks.add(new Stock(symbol, name, price, price));
 			}
 		} catch (Exception e) {
 			System.err.println(e);
@@ -84,5 +84,11 @@ public class StockFileDAO implements StockDAO {
 	@Override
 	public List<Stock> getAllStocks() {
 		return stocks;
+	}
+
+	@Override
+	public double getHigh(String symbol) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }

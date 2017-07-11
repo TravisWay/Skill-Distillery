@@ -1,0 +1,29 @@
+package com.skilldistillery.web;
+
+public class Ball extends BallFactory{
+	
+	int id;
+
+	public Ball(int team) {
+		this.id = team;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	@Override
+	public int toString() {
+		
+		return id;
+	}
+	
+	
+
+}
+
+

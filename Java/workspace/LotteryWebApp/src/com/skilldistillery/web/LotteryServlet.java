@@ -1,0 +1,37 @@
+package com.skilldistillery.web;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LotteryServlet extends HttpServlet {
+
+@Override
+protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	String numballs = req.getParameter("numBalls");
+	int balls = Integer.parseInt(numballs);
+	String highest = req.getParameter("maxNum");
+	int high = Integer.parseInt(numballs);
+	PullBalls test = new PullBalls(balls,high);
+	
+	test.setInput();
+	List <Integer> ballsy =test.getInput();
+	
+	req.setAttribute("balls", ballsy);
+	req.getRequestDispatcher("/results.jsp").forward(req, resp);
+	
+	}
+	
+	
+	
+	
+	
+}
+
+
+	
+
