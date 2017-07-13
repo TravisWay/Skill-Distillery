@@ -6,4 +6,9 @@ INDEX VERSION 1.3+/Users/travisway/SD/Java/workspace/.metadata/.plugins/org.ecli
 1626031975.index
 2338549238.index
 3632708970.index
+3195347591.index
+3496583646.index
 1140894363.index
+3298359861.index
+51184650.index
+590693843.index

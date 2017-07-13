@@ -3480,3 +3480,243 @@
 2017-07-12 19:09:46,853 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/JetsServlet/src/main/resources
 2017-07-12 19:09:46,854 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-07-12 19:09:46,855 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/JetsServlet/src/test/resources
+2017-07-13 09:09:01,589 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2017-07-13 09:09:01,634 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2017-07-13 09:09:01,684 [Worker-198] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringLotto:SpringLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLotto/pom.xml.
+2017-07-13 09:09:01,821 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2017-07-13 09:09:01,845 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2017-07-13 09:09:01,865 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2017-07-13 09:09:01,986 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2017-07-13 09:09:02,246 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2017-07-13 09:09:02,267 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+2017-07-13 09:09:02,333 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2017-07-13 09:09:02,350 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+2017-07-13 09:09:02,385 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2017-07-13 09:09:02,406 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+2017-07-13 09:09:02,425 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2017-07-13 09:09:02,447 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2017-07-13 09:09:02,475 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2017-07-13 09:09:02,492 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2017-07-13 09:09:02,514 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2017-07-13 09:09:02,534 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+2017-07-13 09:09:02,570 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+2017-07-13 09:09:02,588 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+2017-07-13 09:09:02,622 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+2017-07-13 09:09:02,664 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+2017-07-13 09:09:02,679 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2017-07-13 09:09:02,701 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+2017-07-13 09:09:02,717 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2017-07-13 09:09:02,754 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+2017-07-13 09:09:02,775 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2017-07-13 09:09:02,851 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+2017-07-13 09:09:02,872 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2017-07-13 09:09:02,897 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+2017-07-13 09:09:02,920 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+2017-07-13 09:09:03,186 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+2017-07-13 09:09:03,208 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2017-07-13 09:09:03,275 [Worker-198] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+2017-07-13 09:09:03,917 [Worker-198] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringLotto/src
+2017-07-13 09:09:03,918 [Worker-198] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringLotto/src/test/java because it overlaps with /SpringLotto/src
+2017-07-13 09:09:04,097 [Worker-198] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-13 09:09:04,147 [Worker-198] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringLotto:SpringLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLotto/pom.xml.
+2017-07-13 09:09:04,256 [Worker-198] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringLotto/src
+2017-07-13 09:09:04,257 [Worker-198] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringLotto/src/test/java because it overlaps with /SpringLotto/src
+2017-07-13 09:09:04,532 [Worker-198] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-07-13 09:09:04,651 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:09:04,656 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:09:04,658 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:09:04,659 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:10:00,129 [Worker-199] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringLotto:SpringLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLotto/pom.xml.
+2017-07-13 09:10:00,249 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,272 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,301 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,318 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,339 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,358 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,391 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,415 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.pom
+2017-07-13 09:10:00,438 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,698 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,714 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,787 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,803 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,921 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar
+2017-07-13 09:10:00,941 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar
+2017-07-13 09:10:01,008 [Worker-199] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar
+2017-07-13 09:10:01,115 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:10:01,116 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:10:01,117 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:10:01,118 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:10:02,495 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:10:02,495 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:10:02,496 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:10:02,499 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:11:33,506 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:33,506 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:11:33,508 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:33,510 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:11:42,172 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:42,172 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:11:42,174 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:42,174 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:11:54,022 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:54,024 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:11:54,025 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:11:54,026 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:12:16,259 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:12:16,259 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:12:16,261 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:12:16,261 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:12:25,842 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:12:25,843 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:12:25,845 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:12:25,846 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:14:59,821 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:14:59,821 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:14:59,822 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:14:59,823 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:16:27,256 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:16:27,257 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:16:27,258 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:16:27,258 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:16:54,396 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:16:54,397 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:16:54,398 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:16:54,398 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:17:31,926 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:17:31,927 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:17:31,928 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:17:31,929 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:47:51,238 [Worker-227] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringLotto:SpringLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLottoDemo/pom.xml.
+2017-07-13 09:47:51,801 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:47:51,802 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoDemo/src/main/resources
+2017-07-13 09:47:51,805 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:47:51,806 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoDemo/src/test/resources
+2017-07-13 09:47:52,992 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:47:52,992 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoDemo/src/main/resources
+2017-07-13 09:47:52,993 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:47:52,993 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoDemo/src/test/resources
+2017-07-13 09:49:38,028 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: LottoSessions:LottoSessions:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/LottoSessions/pom.xml.
+2017-07-13 09:49:39,172 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.pom
+2017-07-13 09:49:39,210 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.pom
+2017-07-13 09:49:39,247 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.pom
+2017-07-13 09:49:39,269 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.pom
+2017-07-13 09:49:39,304 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.jar
+2017-07-13 09:49:39,480 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.2.RELEASE/spring-webmvc-4.3.2.RELEASE.jar
+2017-07-13 09:49:39,505 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.jar
+2017-07-13 09:49:39,639 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.jar
+2017-07-13 09:49:40,571 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:40,572 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LottoSessions/src/main/resources
+2017-07-13 09:49:40,574 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:40,574 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LottoSessions/src/test/resources
+2017-07-13 09:49:40,937 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:40,938 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LottoSessions/src/main/resources
+2017-07-13 09:49:40,941 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:40,942 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/LottoSessions/src/test/resources
+2017-07-13 09:49:41,030 [Worker-219] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringLotto:SpringLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLotto/pom.xml.
+2017-07-13 09:49:41,149 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,149 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:49:41,151 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,151 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:49:41,479 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,480 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/main/resources
+2017-07-13 09:49:41,481 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,482 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLotto/src/test/resources
+2017-07-13 09:49:41,586 [Worker-232] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCLotto:SpringMVCLotto:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringMVCLotto/pom.xml.
+2017-07-13 09:49:41,760 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,761 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringMVCLotto/src/main/resources
+2017-07-13 09:49:41,764 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:41,764 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringMVCLotto/src/test/resources
+2017-07-13 09:49:41,897 [Worker-232] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: States:States:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/States/pom.xml.
+2017-07-13 09:49:42,049 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:42,049 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/States/src/main/resources
+2017-07-13 09:49:42,051 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:42,051 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/States/src/test/resources
+2017-07-13 09:49:42,160 [Worker-232] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Validation:Validation:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/Validation/pom.xml.
+2017-07-13 09:49:42,351 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.pom
+2017-07-13 09:49:42,383 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.pom
+2017-07-13 09:49:42,457 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.2.4.Final/hibernate-validator-parent-5.2.4.Final.pom
+2017-07-13 09:49:42,485 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator-parent/5.2.4.Final/hibernate-validator-parent-5.2.4.Final.pom
+2017-07-13 09:49:42,511 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.1.9.Final/arquillian-bom-1.1.9.Final.pom
+2017-07-13 09:49:42,533 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.1.9.Final/arquillian-bom-1.1.9.Final.pom
+2017-07-13 09:49:42,562 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.2/shrinkwrap-bom-1.2.2.pom
+2017-07-13 09:49:42,580 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.2/shrinkwrap-bom-1.2.2.pom
+2017-07-13 09:49:42,599 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.1.1/shrinkwrap-resolver-bom-2.1.1.pom
+2017-07-13 09:49:42,622 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.1.1/shrinkwrap-resolver-bom-2.1.1.pom
+2017-07-13 09:49:42,650 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-7/shrinkwrap-descriptors-bom-2.0.0-alpha-7.pom
+2017-07-13 09:49:42,673 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0-alpha-7/shrinkwrap-descriptors-bom-2.0.0-alpha-7.pom
+2017-07-13 09:49:42,696 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+2017-07-13 09:49:42,720 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+2017-07-13 09:49:42,741 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.pom
+2017-07-13 09:49:42,765 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.pom
+2017-07-13 09:49:42,785 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2017-07-13 09:49:42,810 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2017-07-13 09:49:42,831 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.pom
+2017-07-13 09:49:42,854 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.pom
+2017-07-13 09:49:42,874 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2017-07-13 09:49:42,893 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2017-07-13 09:49:42,917 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar
+2017-07-13 09:49:43,145 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar
+2017-07-13 09:49:43,164 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+2017-07-13 09:49:43,188 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+2017-07-13 09:49:43,208 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+2017-07-13 09:49:43,230 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar
+2017-07-13 09:49:43,249 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar
+2017-07-13 09:49:43,278 [Worker-232] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar
+2017-07-13 09:49:43,533 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,534 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/main/resources
+2017-07-13 09:49:43,535 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,536 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/test/resources
+2017-07-13 09:49:43,781 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,781 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringMVCLotto/src/main/resources
+2017-07-13 09:49:43,783 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,783 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringMVCLotto/src/test/resources
+2017-07-13 09:49:43,880 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,881 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/States/src/main/resources
+2017-07-13 09:49:43,882 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:43,883 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/States/src/test/resources
+2017-07-13 09:49:44,002 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:44,003 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/main/resources
+2017-07-13 09:49:44,004 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:44,005 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/test/resources
+2017-07-13 09:49:45,029 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:45,030 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/main/resources
+2017-07-13 09:49:45,031 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 09:49:45,033 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/Validation/src/test/resources
+2017-07-13 10:07:31,729 [Worker-245] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringLottoWeb:SpringLottoWeb:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLottoWeb/pom.xml.
+2017-07-13 10:07:32,975 [Worker-245] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringLottoWeb/src
+2017-07-13 10:07:32,976 [Worker-245] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringLottoWeb/src/test/java because it overlaps with /SpringLottoWeb/src
+2017-07-13 10:07:33,332 [Worker-245] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-13 10:07:33,374 [Worker-245] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringLottoWeb:SpringLottoWeb:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLottoWeb/pom.xml.
+2017-07-13 10:07:34,334 [Worker-245] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringLottoWeb/src
+2017-07-13 10:07:34,335 [Worker-245] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringLottoWeb/src/test/java because it overlaps with /SpringLottoWeb/src
+2017-07-13 10:07:34,492 [Worker-245] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringLottoWeb
+2017-07-13 10:07:34,503 [Worker-245] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-13 10:07:34,624 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:07:34,625 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/main/resources
+2017-07-13 10:07:34,626 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:07:34,627 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/test/resources
+2017-07-13 10:07:34,627 [Worker-246] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringLottoWeb
+2017-07-13 10:07:34,629 [Worker-246] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringLottoWeb
+2017-07-13 10:07:34,633 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-07-13 10:07:34,647 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:10:43,649 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringLottoWeb:SpringLottoWeb:0.0.1-SNAPSHOT @ /Users/travisway/SD/Java/workspace/SpringLottoWeb/pom.xml.
+2017-07-13 10:10:44,457 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:10:44,458 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/main/resources
+2017-07-13 10:10:44,459 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:10:44,460 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/test/resources
+2017-07-13 10:10:44,461 [Worker-234] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringLottoWeb
+2017-07-13 10:10:44,461 [Worker-234] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringLottoWeb
+2017-07-13 10:10:44,466 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:14:34,095 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:14:34,096 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/main/resources
+2017-07-13 10:14:34,097 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:14:34,100 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/test/resources
+2017-07-13 10:14:49,417 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:14:49,418 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/main/resources
+2017-07-13 10:14:49,419 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:14:49,420 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/test/resources
+2017-07-13 10:15:02,456 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:15:02,456 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/main/resources
+2017-07-13 10:15:02,458 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-13 10:15:02,461 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/travisway/SD/Java/workspace/SpringLottoWeb/src/test/resources

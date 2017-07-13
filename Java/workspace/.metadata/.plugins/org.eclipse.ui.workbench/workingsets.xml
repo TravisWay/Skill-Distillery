@@ -60,6 +60,15 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499899778255_9" label="Exercises" name="Exercises">
 <item elementID="=JetsServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499958346467_12" label="SpringWeb" name="SpringWeb">
+<item elementID="=SpringLottoDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LottoSessions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringLotto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringMVCLotto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=States" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Validation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringLottoWeb" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496419245003_0" label="Window Working Set" name="Aggregate for window 1496419245003"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698007371_6" label="Multiple Working Sets" name="Aggregate:Java1:Java2:OCPPrep:Projects:Quizzes:">
 <workingSet IMemento.internal.id="Java1"/>
@@ -84,6 +93,16 @@
 <workingSet IMemento.internal.id="OCPPrep"/>
 <workingSet IMemento.internal.id="Projects"/>
 <workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499958349021_13" label="Multiple Working Sets" name="Aggregate:Exercises:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:SpringWeb:">
+<workingSet IMemento.internal.id="Exercises"/>
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+<workingSet IMemento.internal.id="SpringWeb"/>
 </workingSet>
 <mruList name="Java2"/>
 <mruList name="Java1"/>

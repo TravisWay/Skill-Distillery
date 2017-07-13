@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Shopping Cart&apos; to &apos;ShoppingCart&apos;" description="Rename resource &apos;Shopping Cart&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Shopping Cart" name="ShoppingCart" stamp="1499708160588" updateReferences="true"/>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Shopping Cart&apos; to &apos;ShoppingCart&apos;" description="Rename resource &apos;Shopping Cart&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Shopping Cart" name="ShoppingCart" stamp="1499708160588" updateReferences="true"/>&#x0A;<refactoring comment="Rename Java project &apos;SpringLotto&apos; to &apos;SpringLottoDemo&apos;&#x0A;- Original element: &apos;SpringLotto&apos;&#x0A;- Renamed element: &apos;SpringLotto&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;SpringLotto&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=SpringLotto" name="SpringLottoDemo" references="true" stamp="1499960869857" version="1.0"/>
 </session>
