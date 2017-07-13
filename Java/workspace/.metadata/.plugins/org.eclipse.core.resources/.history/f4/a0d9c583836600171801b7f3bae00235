@@ -1,0 +1,17 @@
+package Presidents;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+
+
+public class PresidentServlet extends HttpServlet{
+	
+	private PresidentFilterDao PFD;
+	@Override
+	public void init() throws ServletException {
+		PFD = new PresidentFilterDao(getServletContext());
+	}
+	
+	
+	
+}

@@ -40,6 +40,7 @@
 <item elementID="=Caesar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Bingo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=History" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PresidentsProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=EmployeeMenu" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Presidents" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=DecIn" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -56,6 +57,9 @@
 <item elementID="=Stocks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=StocksWithJSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499899778255_9" label="Exercises" name="Exercises">
+<item elementID="=JetsServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496419245003_0" label="Window Working Set" name="Aggregate for window 1496419245003"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698007371_6" label="Multiple Working Sets" name="Aggregate:Java1:Java2:OCPPrep:Projects:Quizzes:">
 <workingSet IMemento.internal.id="Java1"/>
@@ -65,6 +69,15 @@
 <workingSet IMemento.internal.id="Quizzes"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698144528_9" label="Multiple Working Sets" name="Aggregate:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499899780979_10" label="Multiple Working Sets" name="Aggregate:Exercises:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Exercises"/>
 <workingSet IMemento.internal.id="Java1"/>
 <workingSet IMemento.internal.id="Java2"/>
 <workingSet IMemento.internal.id="JavaWeb"/>
