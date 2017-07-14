@@ -7,4 +7,5 @@
   <module moduleId="org.eclipse.jst.jee.server:ShoppingCart" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:HelloWorld" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Stocks" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:USStates" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>

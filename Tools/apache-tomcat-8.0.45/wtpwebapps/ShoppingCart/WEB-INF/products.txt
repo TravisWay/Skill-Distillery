@@ -1,9 +1,0 @@
-1,"Apple", 1.09
-2, "Pear", 1.10
-3, "Banana", 1.20
-4, "Giraffe", 10.00
-5, "Frog", 12.00
-6, "Maserati", 100000.00
-7, "fuji", .50
-8, "Swift kick to the face", 0.00
-9, "Orange", 1.00

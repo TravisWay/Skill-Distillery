@@ -1,0 +1,27 @@
+package tester;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class testerController {
+
+
+@RequestMapping("route.do")
+public ModelAndView processData(@RequestParam("data") int s, @RequestParam("data2") int t) {
+//    String allCaps = s.toUpperCase();
+//    ModelAndView mv = new ModelAndView();
+//    mv.setViewName("mine.jsp");
+//    mv.addObject("result", allCaps);
+//    return mv;
+	int product= s*t;
+	ModelAndView mv = new ModelAndView();
+	mv.setViewName("mine.jsp");
+	mv.addObject("result", product);
+	return mv;
+	
+  }
+}

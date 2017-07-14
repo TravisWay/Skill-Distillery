@@ -9,14 +9,20 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value=""/>
+			<item value="/Users/travisway/SD/SD-Files/Exercises/JetsServlet"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/travisway/SD/Java/SDSpringMVC.zip"/>
+			<item value=""/>
 			<item value="/Users/travisway/SD/Java/SDJweb.zip"/>
 			<item value="/Users/travisway/SD/Java/java2.zip"/>
 			<item value="/Users/travisway/SD/Java/java1.zip"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="false" key="FilterByLocation"/>

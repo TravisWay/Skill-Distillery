@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <title>Title</title>
+  </head>
+  <body>
+    <form action="route.do" method="GET">
+      <input type="number" name="data" />
+      <select id="type" name="type">
+  <option value="add">+</option>
+  <option value="sub">-</option>
+  <option value="div">/</option>
+  <option value="mult">*</option>
+</select>
+      <input type="number" name="data2" />
+   	 <input type="submit" value="Submit">
+    ${result}
+   
+    </form>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <form action="route.do" method="GET">
+      <input type="number" name="data" /><br />
+    
+      <input type="number" name="data2" /><br />
+      <input type="add" value="add" /><br />
+      <input type="sub" value="sub" /><br />
+      <input type="mult" value="mult" /><br />
+      <input type="div" value="div" /><br />
+    
+    
+    </form>
+  </body>
+</html>

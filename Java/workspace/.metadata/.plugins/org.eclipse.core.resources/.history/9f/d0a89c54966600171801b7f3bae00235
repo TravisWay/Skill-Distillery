@@ -1,5 +1,0 @@
-@CHARSET "UTF-8";
-*{
-	color:green;
-	background-color:black;
-}

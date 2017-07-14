@@ -1,5 +1,0 @@
-aapl,Apple,107.25, 1000
-fb,FaceBook,105.50,100000
-goog,Alphabet,750.50,10000
-nflx,Netflix,117.00,10102
-twtr,Twitter,22.57,10101
